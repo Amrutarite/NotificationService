@@ -14,7 +14,9 @@ EXPOSE 8080
 # Build stage
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
-COPY ["NotificationService.csproj", "./"]
+
+# Correct path for csproj
+COPY ["NotificationService/NotificationService.csproj", "./"]
 RUN dotnet restore "./NotificationService.csproj"
 
 # Copy everything and build the app
