@@ -8,8 +8,6 @@
 		<DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
 		<DockerComposeProjectPath>..\docker-compose.dcproj</DockerComposeProjectPath>
 		<OutputType>Exe</OutputType>
-		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
-		<!-- Disable auto-generation of AssemblyInfo.cs -->
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -46,10 +44,6 @@
 		<None Update="NLog.config">
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</None>
-	</ItemGroup>
-
-	<ItemGroup>
-		<None Remove="..\.dockerignore" />
 	</ItemGroup>
 
 </Project>

@@ -15,14 +15,17 @@ EXPOSE 8080
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
-# Correct path for csproj
-COPY ["NotificationService/NotificationService.csproj", "./"]
-RUN dotnet restore "./NotificationService.csproj"
+# Copy the project file and restore dependencies
+COPY NotificationService/*.csproj ./NotificationService/
+WORKDIR /src/NotificationService
+RUN dotnet restore
 
-# Copy everything and build the app
-COPY . . 
-WORKDIR "/src"
-RUN dotnet publish "NotificationService.csproj" -c Release -o /app/publish
+# Clean obj and bin to prevent duplicate attribute issues
+RUN rm -rf obj bin
+
+# Copy the entire project and build
+COPY . .
+RUN dotnet publish -c Release -o /app/publish
 
 # Final runtime image
 FROM base AS final
@@ -30,8 +33,8 @@ WORKDIR /app
 COPY --from=build /app/publish .
 
 # Ensure NLog.config is copied
-COPY ./NotificationService/NLog.config /app/NLog.config
-COPY ./NotificationService/NLog.config /app/nlog.config
+COPY NotificationService/NLog.config /app/NLog.config
+COPY NotificationService/NLog.config /app/nlog.config
 
 # Start the application
 ENTRYPOINT ["dotnet", "NotificationService.dll"]
