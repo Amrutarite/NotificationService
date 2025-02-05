@@ -31,6 +31,8 @@
 		<PackageReference Include="Quartz" Version="3.13.1" />
 		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
 		<PackageReference Include="TimeZoneConverter" Version="7.0.0" />
+		<PackageReference Include="xunit" Version="2.4.2" />
+		<PackageReference Include="xunit.runner.visualstudio" Version="2.4.3" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -46,15 +48,15 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Remove="..\.dockerignore" />
+		<None Remove="..\.dockerignore" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Remove="..\.dockerignore" />
+		<None Remove="..\.dockerignore" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Remove="..\.dockerignore" />
+		<None Remove="..\.dockerignore" />
 	</ItemGroup>
 
 </Project>
