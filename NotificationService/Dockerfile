@@ -28,8 +28,8 @@ WORKDIR /app
 COPY --from=build /app/publish .
 
 # Ensure NLog.config is copied
-COPY NLog.config /app/NLog.config
-COPY NLog.config /app/nlog.config
+COPY ./NotificationService/NLog.config /app/NLog.config
+COPY ./NotificationService/NLog.config /app/nlog.config
 
 # Start the application
 ENTRYPOINT ["dotnet", "NotificationService.dll"]
