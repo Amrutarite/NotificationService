@@ -1,0 +1,1156 @@
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\Logging\NLog.config
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\appsettings.json
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\NotificationService.staticwebassets.endpoints.json
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\NotificationService.exe
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\NotificationService.deps.json
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\NotificationService.runtimeconfig.json
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\NotificationService.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\NotificationService.pdb
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\Dapper.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\Hangfire.AspNetCore.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\Hangfire.Core.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\Hangfire.MemoryStorage.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\Hangfire.NetCore.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\Hangfire.SqlServer.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\MailKit.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Localization.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.WebEncoders.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\MimeKit.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\NLog.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\NLog.Extensions.Logging.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\NLog.Web.AspNetCore.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\Quartz.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\System.Security.Cryptography.Xml.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\ca\Hangfire.Core.resources.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\de\Hangfire.Core.resources.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\es\Hangfire.Core.resources.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\fa\Hangfire.Core.resources.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\fr\Hangfire.Core.resources.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\nb\Hangfire.Core.resources.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\nl\Hangfire.Core.resources.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\pt-BR\Hangfire.Core.resources.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\pt-PT\Hangfire.Core.resources.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\pt\Hangfire.Core.resources.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\sv\Hangfire.Core.resources.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\tr-TR\Hangfire.Core.resources.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\zh-TW\Hangfire.Core.resources.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\zh\Hangfire.Core.resources.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.csproj.AssemblyReference.cache
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.AssemblyInfoInputs.cache
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.AssemblyInfo.cs
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.csproj.CoreCompileInputs.cache
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.sourcelink.json
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\obj\Debug\net8.0\scopedcss\bundle\NotificationService.styles.css
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets\msbuild.NotificationService.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets\msbuild.NotificationService.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets\msbuild.build.NotificationService.props
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.NotificationService.props
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.NotificationService.props
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\obj\Debug\net8.0\Notifica.A960C9D4.Up2Date
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\obj\Debug\net8.0\refint\NotificationService.dll
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.pdb
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.genruntimeconfig.cache
+C:\Users\amrut\Desktop\AMRUTA\repo\NotificationService\NotificationService\obj\Debug\net8.0\ref\NotificationService.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\appsettings.json
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\NotificationService.staticwebassets.endpoints.json
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\NotificationService.exe
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\Logging\NLog.config
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\NotificationService.deps.json
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\NotificationService.runtimeconfig.json
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\NotificationService.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\NotificationService.pdb
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\Dapper.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\Hangfire.AspNetCore.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\Hangfire.Core.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\Hangfire.MemoryStorage.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\Hangfire.NetCore.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\Hangfire.SqlServer.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\MailKit.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Localization.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.WebEncoders.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\MimeKit.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\NLog.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\NLog.Extensions.Logging.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\NLog.Web.AspNetCore.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\Quartz.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\System.Security.Cryptography.Xml.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\ca\Hangfire.Core.resources.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\de\Hangfire.Core.resources.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\es\Hangfire.Core.resources.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\fa\Hangfire.Core.resources.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\fr\Hangfire.Core.resources.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\nb\Hangfire.Core.resources.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\nl\Hangfire.Core.resources.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\pt-BR\Hangfire.Core.resources.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\pt-PT\Hangfire.Core.resources.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\pt\Hangfire.Core.resources.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\sv\Hangfire.Core.resources.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\tr-TR\Hangfire.Core.resources.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\zh-TW\Hangfire.Core.resources.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\zh\Hangfire.Core.resources.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.csproj.AssemblyReference.cache
+C:\Users\amrut\Documents\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amrut\Documents\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.AssemblyInfoInputs.cache
+C:\Users\amrut\Documents\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.AssemblyInfo.cs
+C:\Users\amrut\Documents\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.csproj.CoreCompileInputs.cache
+C:\Users\amrut\Documents\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\amrut\Documents\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\amrut\Documents\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.sourcelink.json
+C:\Users\amrut\Documents\NotificationService\NotificationService\obj\Debug\net8.0\scopedcss\bundle\NotificationService.styles.css
+C:\Users\amrut\Documents\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\amrut\Documents\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\amrut\Documents\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\amrut\Documents\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets\msbuild.NotificationService.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\amrut\Documents\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets\msbuild.NotificationService.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\amrut\Documents\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets\msbuild.build.NotificationService.props
+C:\Users\amrut\Documents\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.NotificationService.props
+C:\Users\amrut\Documents\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.NotificationService.props
+C:\Users\amrut\Documents\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\amrut\Documents\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\amrut\Documents\NotificationService\NotificationService\obj\Debug\net8.0\Notifica.A960C9D4.Up2Date
+C:\Users\amrut\Documents\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\obj\Debug\net8.0\refint\NotificationService.dll
+C:\Users\amrut\Documents\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.pdb
+C:\Users\amrut\Documents\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.genruntimeconfig.cache
+C:\Users\amrut\Documents\NotificationService\NotificationService\obj\Debug\net8.0\ref\NotificationService.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\NLog.config
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\appsettings.json
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\NotificationService.staticwebassets.endpoints.json
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\NotificationService.exe
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\Logging\NLog.config
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\NotificationService.deps.json
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\NotificationService.runtimeconfig.json
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\NotificationService.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\NotificationService.pdb
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\Dapper.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\Hangfire.AspNetCore.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\Hangfire.Core.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\Hangfire.MemoryStorage.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\Hangfire.NetCore.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\Hangfire.SqlServer.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\MailKit.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Localization.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.WebEncoders.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\MimeKit.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\NLog.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\NLog.Extensions.Logging.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\NLog.Web.AspNetCore.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\Quartz.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\System.Security.Cryptography.Xml.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\ca\Hangfire.Core.resources.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\de\Hangfire.Core.resources.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\es\Hangfire.Core.resources.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\fa\Hangfire.Core.resources.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\fr\Hangfire.Core.resources.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\nb\Hangfire.Core.resources.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\nl\Hangfire.Core.resources.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\pt-BR\Hangfire.Core.resources.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\pt-PT\Hangfire.Core.resources.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\pt\Hangfire.Core.resources.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\sv\Hangfire.Core.resources.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\tr-TR\Hangfire.Core.resources.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\zh-TW\Hangfire.Core.resources.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\zh\Hangfire.Core.resources.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.csproj.AssemblyReference.cache
+C:\Users\amrut\Downloads\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amrut\Downloads\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.AssemblyInfoInputs.cache
+C:\Users\amrut\Downloads\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.AssemblyInfo.cs
+C:\Users\amrut\Downloads\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.csproj.CoreCompileInputs.cache
+C:\Users\amrut\Downloads\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\amrut\Downloads\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\amrut\Downloads\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.sourcelink.json
+C:\Users\amrut\Downloads\NotificationService\NotificationService\obj\Debug\net8.0\scopedcss\bundle\NotificationService.styles.css
+C:\Users\amrut\Downloads\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\amrut\Downloads\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\amrut\Downloads\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\amrut\Downloads\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets\msbuild.NotificationService.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\amrut\Downloads\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets\msbuild.NotificationService.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\amrut\Downloads\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets\msbuild.build.NotificationService.props
+C:\Users\amrut\Downloads\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.NotificationService.props
+C:\Users\amrut\Downloads\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.NotificationService.props
+C:\Users\amrut\Downloads\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\amrut\Downloads\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\amrut\Downloads\NotificationService\NotificationService\obj\Debug\net8.0\Notifica.A960C9D4.Up2Date
+C:\Users\amrut\Downloads\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\obj\Debug\net8.0\refint\NotificationService.dll
+C:\Users\amrut\Downloads\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.pdb
+C:\Users\amrut\Downloads\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.genruntimeconfig.cache
+C:\Users\amrut\Downloads\NotificationService\NotificationService\obj\Debug\net8.0\ref\NotificationService.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\NLog.config
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\appsettings.json
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\NotificationService.staticwebassets.endpoints.json
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\NotificationService.exe
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\NotificationService.deps.json
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\NotificationService.runtimeconfig.json
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\NotificationService.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\NotificationService.pdb
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\Dapper.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\Hangfire.AspNetCore.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\Hangfire.Core.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\Hangfire.MemoryStorage.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\Hangfire.NetCore.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\Hangfire.SqlServer.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\MailKit.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Localization.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.WebEncoders.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\MimeKit.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\NLog.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\NLog.Extensions.Logging.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\Quartz.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\System.Security.Cryptography.Xml.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\ca\Hangfire.Core.resources.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\de\Hangfire.Core.resources.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\es\Hangfire.Core.resources.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\fa\Hangfire.Core.resources.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\fr\Hangfire.Core.resources.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\nb\Hangfire.Core.resources.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\nl\Hangfire.Core.resources.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\pt-BR\Hangfire.Core.resources.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\pt-PT\Hangfire.Core.resources.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\pt\Hangfire.Core.resources.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\sv\Hangfire.Core.resources.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\tr-TR\Hangfire.Core.resources.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\zh-TW\Hangfire.Core.resources.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\zh\Hangfire.Core.resources.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.csproj.AssemblyReference.cache
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.AssemblyInfoInputs.cache
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.AssemblyInfo.cs
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.csproj.CoreCompileInputs.cache
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.sourcelink.json
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\obj\Debug\net8.0\scopedcss\bundle\NotificationService.styles.css
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets\msbuild.NotificationService.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets\msbuild.NotificationService.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets\msbuild.build.NotificationService.props
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.NotificationService.props
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.NotificationService.props
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\obj\Debug\net8.0\Notifica.A960C9D4.Up2Date
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\obj\Debug\net8.0\refint\NotificationService.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.pdb
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.genruntimeconfig.cache
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\obj\Debug\net8.0\ref\NotificationService.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\Castle.Core.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\FluentAssertions.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\Moq.dll
+C:\Users\amrut\OneDrive\NotificationService\NotificationService\bin\Debug\net8.0\NLog.Web.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\NLog.config
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\appsettings.json
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\NotificationService.staticwebassets.endpoints.json
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\NotificationService.exe
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\NotificationService.deps.json
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\NotificationService.runtimeconfig.json
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\NotificationService.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\NotificationService.pdb
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\Castle.Core.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\Dapper.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\FluentAssertions.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\Hangfire.AspNetCore.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\Hangfire.Core.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\Hangfire.MemoryStorage.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\Hangfire.NetCore.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\Hangfire.SqlServer.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\MailKit.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Localization.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.WebEncoders.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\MimeKit.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\Moq.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\NLog.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\NLog.Extensions.Logging.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\NLog.Web.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\Quartz.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\System.Security.Cryptography.Xml.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\ca\Hangfire.Core.resources.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\de\Hangfire.Core.resources.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\es\Hangfire.Core.resources.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\fa\Hangfire.Core.resources.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\fr\Hangfire.Core.resources.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\nb\Hangfire.Core.resources.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\nl\Hangfire.Core.resources.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\pt-BR\Hangfire.Core.resources.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\pt-PT\Hangfire.Core.resources.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\pt\Hangfire.Core.resources.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\sv\Hangfire.Core.resources.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\tr-TR\Hangfire.Core.resources.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\zh-TW\Hangfire.Core.resources.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\zh\Hangfire.Core.resources.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.csproj.AssemblyReference.cache
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.AssemblyInfoInputs.cache
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.AssemblyInfo.cs
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.csproj.CoreCompileInputs.cache
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.sourcelink.json
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\obj\Debug\net8.0\scopedcss\bundle\NotificationService.styles.css
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets\msbuild.NotificationService.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets\msbuild.NotificationService.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets\msbuild.build.NotificationService.props
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.NotificationService.props
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.NotificationService.props
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\obj\Debug\net8.0\Notifica.A960C9D4.Up2Date
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\obj\Debug\net8.0\refint\NotificationService.dll
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.pdb
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.genruntimeconfig.cache
+C:\Users\amrut\OneDrive\Attachments\NotificationService\NotificationService\obj\Debug\net8.0\ref\NotificationService.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\NotificationService.staticwebassets.endpoints.json
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\appsettings.json
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\NotificationService.exe
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\NLog.config
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\NotificationService.deps.json
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\NotificationService.runtimeconfig.json
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\NotificationService.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\NotificationService.pdb
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\Castle.Core.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\Dapper.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\FluentAssertions.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\Hangfire.AspNetCore.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\Hangfire.Core.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\Hangfire.MemoryStorage.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\Hangfire.NetCore.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\Hangfire.SqlServer.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\MailKit.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Localization.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.WebEncoders.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\MimeKit.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\Moq.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\NLog.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\NLog.Extensions.Logging.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\NLog.Web.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\Quartz.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\System.Security.Cryptography.Xml.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\ca\Hangfire.Core.resources.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\de\Hangfire.Core.resources.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\es\Hangfire.Core.resources.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\fa\Hangfire.Core.resources.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\fr\Hangfire.Core.resources.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\nb\Hangfire.Core.resources.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\nl\Hangfire.Core.resources.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\pt-BR\Hangfire.Core.resources.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\pt-PT\Hangfire.Core.resources.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\pt\Hangfire.Core.resources.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\sv\Hangfire.Core.resources.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\tr-TR\Hangfire.Core.resources.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\zh-TW\Hangfire.Core.resources.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\zh\Hangfire.Core.resources.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.csproj.AssemblyReference.cache
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.AssemblyInfoInputs.cache
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.AssemblyInfo.cs
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.csproj.CoreCompileInputs.cache
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\obj\Debug\net8.0\scopedcss\bundle\NotificationService.styles.css
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets\msbuild.NotificationService.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets\msbuild.NotificationService.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets\msbuild.build.NotificationService.props
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.NotificationService.props
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.NotificationService.props
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\obj\Debug\net8.0\Notifica.A960C9D4.Up2Date
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\obj\Debug\net8.0\refint\NotificationService.dll
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.pdb
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.genruntimeconfig.cache
+C:\Users\amrut\OneDrive\practice\NotificationService\NotificationService\obj\Debug\net8.0\ref\NotificationService.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\appsettings.Development.json
+D:\NotificationService\NotificationService\bin\Debug\net8.0\appsettings.json
+D:\NotificationService\NotificationService\bin\Debug\net8.0\NotificationService.staticwebassets.endpoints.json
+D:\NotificationService\NotificationService\bin\Debug\net8.0\NotificationService.exe
+D:\NotificationService\NotificationService\bin\Debug\net8.0\NLog.config
+D:\NotificationService\NotificationService\bin\Debug\net8.0\NotificationService.deps.json
+D:\NotificationService\NotificationService\bin\Debug\net8.0\NotificationService.runtimeconfig.json
+D:\NotificationService\NotificationService\bin\Debug\net8.0\NotificationService.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\NotificationService.pdb
+D:\NotificationService\NotificationService\bin\Debug\net8.0\Azure.Core.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\Azure.Identity.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\Castle.Core.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\Dapper.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\FluentAssertions.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\Hangfire.AspNetCore.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\Hangfire.Core.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\Hangfire.MemoryStorage.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\Hangfire.NetCore.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\Hangfire.SqlServer.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\MailKit.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Localization.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Localization.Abstractions.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.WebEncoders.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\MimeKit.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\Moq.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\NLog.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\NLog.Extensions.Logging.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\NLog.Web.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\Quartz.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\System.ClientModel.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\System.Memory.Data.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\System.Security.Cryptography.Xml.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\ca\Hangfire.Core.resources.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\de\Hangfire.Core.resources.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\es\Hangfire.Core.resources.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\fa\Hangfire.Core.resources.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\fr\Hangfire.Core.resources.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\nb\Hangfire.Core.resources.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\nl\Hangfire.Core.resources.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\pt-BR\Hangfire.Core.resources.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\pt-PT\Hangfire.Core.resources.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\pt\Hangfire.Core.resources.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\sv\Hangfire.Core.resources.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\tr-TR\Hangfire.Core.resources.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\zh-TW\Hangfire.Core.resources.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\zh\Hangfire.Core.resources.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\fr\Microsoft.Data.SqlClient.resources.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\it\Microsoft.Data.SqlClient.resources.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\ja\Microsoft.Data.SqlClient.resources.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\ko\Microsoft.Data.SqlClient.resources.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\ru\Microsoft.Data.SqlClient.resources.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
+D:\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.csproj.AssemblyReference.cache
+D:\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.GeneratedMSBuildEditorConfig.editorconfig
+D:\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.AssemblyInfoInputs.cache
+D:\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.AssemblyInfo.cs
+D:\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.csproj.CoreCompileInputs.cache
+D:\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.MvcApplicationPartsAssemblyInfo.cs
+D:\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.MvcApplicationPartsAssemblyInfo.cache
+D:\NotificationService\NotificationService\obj\Debug\net8.0\scopedcss\bundle\NotificationService.styles.css
+D:\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets.build.json
+D:\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets.development.json
+D:\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets\msbuild.NotificationService.Microsoft.AspNetCore.StaticWebAssets.props
+D:\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets\msbuild.NotificationService.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets\msbuild.build.NotificationService.props
+D:\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.NotificationService.props
+D:\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.NotificationService.props
+D:\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets.pack.json
+D:\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\NotificationService\NotificationService\obj\Debug\net8.0\Notifica.A960C9D4.Up2Date
+D:\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.dll
+D:\NotificationService\NotificationService\obj\Debug\net8.0\refint\NotificationService.dll
+D:\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.pdb
+D:\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.genruntimeconfig.cache
+D:\NotificationService\NotificationService\obj\Debug\net8.0\ref\NotificationService.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\appsettings.json
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\NotificationService.staticwebassets.endpoints.json
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\NotificationService.exe
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\NLog.config
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\NotificationService.deps.json
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\NotificationService.runtimeconfig.json
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\NotificationService.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\NotificationService.pdb
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\Castle.Core.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\Dapper.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\FluentAssertions.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\Hangfire.AspNetCore.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\Hangfire.Core.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\Hangfire.MemoryStorage.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\Hangfire.NetCore.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\Hangfire.SqlServer.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\MailKit.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Localization.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.WebEncoders.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\MimeKit.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\Moq.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\NLog.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\NLog.Extensions.Logging.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\NLog.Web.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\Quartz.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\System.Security.Cryptography.Xml.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\ca\Hangfire.Core.resources.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\de\Hangfire.Core.resources.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\es\Hangfire.Core.resources.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\fa\Hangfire.Core.resources.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\fr\Hangfire.Core.resources.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\nb\Hangfire.Core.resources.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\nl\Hangfire.Core.resources.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\pt-BR\Hangfire.Core.resources.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\pt-PT\Hangfire.Core.resources.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\pt\Hangfire.Core.resources.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\sv\Hangfire.Core.resources.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\tr-TR\Hangfire.Core.resources.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\zh-TW\Hangfire.Core.resources.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\zh\Hangfire.Core.resources.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.csproj.AssemblyReference.cache
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.AssemblyInfoInputs.cache
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.AssemblyInfo.cs
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.csproj.CoreCompileInputs.cache
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.sourcelink.json
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\obj\Debug\net8.0\scopedcss\bundle\NotificationService.styles.css
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets\msbuild.NotificationService.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets\msbuild.NotificationService.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets\msbuild.build.NotificationService.props
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.NotificationService.props
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.NotificationService.props
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\obj\Debug\net8.0\Notifica.A960C9D4.Up2Date
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\obj\Debug\net8.0\refint\NotificationService.dll
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.pdb
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.genruntimeconfig.cache
+C:\Users\amrut\Documents\SQL Server Management Studio\NotificationService\NotificationService\obj\Debug\net8.0\ref\NotificationService.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\appsettings.json
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\NotificationService.staticwebassets.endpoints.json
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\NotificationService.exe
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\NLog.config
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\NotificationService.deps.json
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\NotificationService.runtimeconfig.json
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\NotificationService.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\NotificationService.pdb
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\Castle.Core.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\Dapper.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\FluentAssertions.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\Hangfire.AspNetCore.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\Hangfire.Core.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\Hangfire.MemoryStorage.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\Hangfire.NetCore.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\Hangfire.SqlServer.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\MailKit.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\MimeKit.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\Moq.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\NLog.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\NLog.Extensions.Logging.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\NLog.Web.AspNetCore.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\Quartz.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\TimeZoneConverter.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\ca\Hangfire.Core.resources.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\de\Hangfire.Core.resources.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\es\Hangfire.Core.resources.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\fa\Hangfire.Core.resources.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\fr\Hangfire.Core.resources.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\nb\Hangfire.Core.resources.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\nl\Hangfire.Core.resources.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\pt-BR\Hangfire.Core.resources.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\pt-PT\Hangfire.Core.resources.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\pt\Hangfire.Core.resources.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\sv\Hangfire.Core.resources.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\tr-TR\Hangfire.Core.resources.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\zh-TW\Hangfire.Core.resources.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\zh\Hangfire.Core.resources.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.csproj.AssemblyReference.cache
+C:\Users\amrut\Videos\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amrut\Videos\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.AssemblyInfoInputs.cache
+C:\Users\amrut\Videos\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.AssemblyInfo.cs
+C:\Users\amrut\Videos\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.csproj.CoreCompileInputs.cache
+C:\Users\amrut\Videos\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\amrut\Videos\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\amrut\Videos\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.sourcelink.json
+C:\Users\amrut\Videos\NotificationService\NotificationService\obj\Debug\net8.0\scopedcss\bundle\NotificationService.styles.css
+C:\Users\amrut\Videos\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\amrut\Videos\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\amrut\Videos\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\amrut\Videos\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets\msbuild.NotificationService.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\amrut\Videos\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets\msbuild.NotificationService.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\amrut\Videos\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets\msbuild.build.NotificationService.props
+C:\Users\amrut\Videos\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.NotificationService.props
+C:\Users\amrut\Videos\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.NotificationService.props
+C:\Users\amrut\Videos\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\amrut\Videos\NotificationService\NotificationService\obj\Debug\net8.0\Notifica.A960C9D4.Up2Date
+C:\Users\amrut\Videos\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\obj\Debug\net8.0\refint\NotificationService.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.pdb
+C:\Users\amrut\Videos\NotificationService\NotificationService\obj\Debug\net8.0\NotificationService.genruntimeconfig.cache
+C:\Users\amrut\Videos\NotificationService\NotificationService\obj\Debug\net8.0\ref\NotificationService.dll
+C:\Users\amrut\Videos\NotificationService\NotificationService\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

@@ -1,0 +1,41 @@
+{
+    "$schema": "http://json.schemastore.org/launchsettings.json",
+    "iisSettings": {
+        "windowsAuthentication": false,
+        "anonymousAuthentication": true,
+        "iisExpress": {
+            "applicationUrl": "http://localhost:43094",
+            "sslPort": 44372
+        }
+    },
+    "profiles": {
+        "http": {
+            "commandName": "Project",
+            "launchBrowser": true,
+            "environmentVariables": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "dotnetRunMessages": true,
+            "applicationUrl": "http://localhost:7264"
+        },
+        "IIS Express": {
+            "commandName": "IISExpress",
+            "launchBrowser": true,
+            "environmentVariables": {
+                "ASPNETCORE_ENVIRONMENT": "Development",
+                "ConnectionStrings__DefaultConnection": "Server=192.168.0.112\\SQLEXPRESS;Database=NotificationServiceDB;User Id=sa;Password=MMSPhW110;MultipleActiveResultSets=True;TrustServerCertificate=True;"
+            }
+        },
+        "Container (Dockerfile)": {
+            "commandName": "Docker",
+            "launchBrowser": true,
+            "launchUrl": "http://{ServiceHost}:{ServicePort}",
+            "environmentVariables": {
+                "ASPNETCORE_HTTP_PORTS": "8080",
+                "ASPNETCORE_URLS": "http://0.0.0.0:8080"
+            },
+            "publishAllPorts": true,
+            "useSSL": false
+        }
+    }
+}

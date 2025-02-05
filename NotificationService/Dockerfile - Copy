@@ -1,0 +1,25 @@
+# Use official .NET runtime image
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
+WORKDIR /app
+
+# Expose internal container port 
+EXPOSE 7264
+
+# Build stage
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+WORKDIR /src
+COPY ["NotificationService.csproj", "./"]
+RUN dotnet restore "./NotificationService.csproj"
+
+# Copy everything and build the app
+COPY . .
+WORKDIR "/src"
+RUN dotnet publish "NotificationService.csproj" -c Release -o /app/publish
+
+# Final runtime image
+FROM base AS final
+WORKDIR /app
+COPY --from=build /app/publish .
+
+# Start the application
+ENTRYPOINT ["dotnet", "NotificationService.dll"]

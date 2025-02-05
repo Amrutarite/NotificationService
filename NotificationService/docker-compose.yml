@@ -1,0 +1,42 @@
+# services:
+#   notificationservice:
+#     image: amruta0008/notificationservice:latest
+#     ports:
+#       - "8081:8080"  
+#     secrets:
+#       - connectionstrings__defaultconnection
+#       - emailsettings__password
+#       - emailsettings__port
+# - 
+#       - emailsettings__smtpserver
+#       - emailsettings__username
+#       - jwtsettings__audience
+#       - jwtsettings__issuer
+#       - jwtsettings__secretkey
+#     environment:
+#       - ConnectionStrings__DefaultConnection=/run/secrets/connectionstrings__defaultconnection
+#       - EmailSettings__Password=/run/secrets/emailsettings__password
+#       - EmailSettings__Port=/run/secrets/emailsettings__port
+#       - EmailSettings__SmtpServer=/run/secrets/emailsettings__smtpserver
+#       - EmailSettings__Username=/run/secrets/emailsettings__username
+#       - JwtSettings__Audience=/run/secrets/jwtsettings__audience
+#       - JwtSettings__Issuer=/run/secrets/jwtsettings__issuer
+#       - JwtSettings__SecretKey=/run/secrets/jwtsettings__secretkey
+
+# secrets:
+#   connectionstrings__defaultconnection:
+#     external: true
+#   emailsettings__password:
+#     external: true
+#   emailsettings__port:
+#     external: true
+#   emailsettings__smtpserver:
+#     external: true
+#   emailsettings__username:
+#     external: true
+#   jwtsettings__audience:
+#     external: true
+#   jwtsettings__issuer:
+#     external: true
+#   jwtsettings__secretkey:
+#     external: true

@@ -1,0 +1,520 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\amrut\\Videos\\NotificationService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8A1A5496-D999-4DED-90B1-B6A292C776DF}|NotificationService\\NotificationService.csproj|c:\\users\\amrut\\videos\\notificationservice\\notificationservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8A1A5496-D999-4DED-90B1-B6A292C776DF}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A1A5496-D999-4DED-90B1-B6A292C776DF}|NotificationService\\NotificationService.csproj|c:\\users\\amrut\\videos\\notificationservice\\notificationservice\\services\\emailsenderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A1A5496-D999-4DED-90B1-B6A292C776DF}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\services\\emailsenderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A1A5496-D999-4DED-90B1-B6A292C776DF}|NotificationService\\NotificationService.csproj|c:\\users\\amrut\\videos\\notificationservice\\notificationservice\\repositories\\emailnotificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A1A5496-D999-4DED-90B1-B6A292C776DF}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\repositories\\emailnotificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A1A5496-D999-4DED-90B1-B6A292C776DF}|NotificationService\\NotificationService.csproj|c:\\users\\amrut\\videos\\notificationservice\\notificationservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A1A5496-D999-4DED-90B1-B6A292C776DF}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A1A5496-D999-4DED-90B1-B6A292C776DF}|NotificationService\\NotificationService.csproj|c:\\users\\amrut\\videos\\notificationservice\\notificationservice\\backgroundjobs\\emailjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A1A5496-D999-4DED-90B1-B6A292C776DF}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\backgroundjobs\\emailjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A1A5496-D999-4DED-90B1-B6A292C776DF}|NotificationService\\NotificationService.csproj|c:\\users\\amrut\\videos\\notificationservice\\notificationservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8A1A5496-D999-4DED-90B1-B6A292C776DF}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A1A5496-D999-4DED-90B1-B6A292C776DF}|NotificationService\\NotificationService.csproj|c:\\users\\amrut\\videos\\notificationservice\\notificationservice\\utilities\\dbexecuter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A1A5496-D999-4DED-90B1-B6A292C776DF}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\utilities\\dbexecuter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A1A5496-D999-4DED-90B1-B6A292C776DF}|NotificationService\\NotificationService.csproj|c:\\users\\amrut\\videos\\notificationservice\\notificationservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8A1A5496-D999-4DED-90B1-B6A292C776DF}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A1A5496-D999-4DED-90B1-B6A292C776DF}|NotificationService\\NotificationService.csproj|c:\\users\\amrut\\videos\\notificationservice\\notificationservice\\controllers\\emailnotificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A1A5496-D999-4DED-90B1-B6A292C776DF}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\controllers\\emailnotificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A1A5496-D999-4DED-90B1-B6A292C776DF}|NotificationService\\NotificationService.csproj|c:\\users\\amrut\\videos\\notificationservice\\notificationservice\\notificationservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8A1A5496-D999-4DED-90B1-B6A292C776DF}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\notificationservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A1A5496-D999-4DED-90B1-B6A292C776DF}|NotificationService\\NotificationService.csproj|c:\\users\\amrut\\videos\\notificationservice\\notificationservice\\notificationservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{8A1A5496-D999-4DED-90B1-B6A292C776DF}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\notificationservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A1A5496-D999-4DED-90B1-B6A292C776DF}|NotificationService\\NotificationService.csproj|c:\\users\\amrut\\videos\\notificationservice\\notificationservice\\nlog.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{8A1A5496-D999-4DED-90B1-B6A292C776DF}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\nlog.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB46738F-0232-426A-AAEC-8FD9290A44D0}|NotificationService.Tests\\NotificationService.Tests.csproj|c:\\users\\amrut\\videos\\notificationservice\\notificationservice.tests\\controllers\\emailnotificationcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB46738F-0232-426A-AAEC-8FD9290A44D0}|NotificationService.Tests\\NotificationService.Tests.csproj|solutionrelative:notificationservice.tests\\controllers\\emailnotificationcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A1A5496-D999-4DED-90B1-B6A292C776DF}|NotificationService\\NotificationService.csproj|c:\\users\\amrut\\videos\\notificationservice\\notificationservice\\repositories\\iemailnotificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A1A5496-D999-4DED-90B1-B6A292C776DF}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\repositories\\iemailnotificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A1A5496-D999-4DED-90B1-B6A292C776DF}|NotificationService\\NotificationService.csproj|c:\\users\\amrut\\videos\\notificationservice\\notificationservice\\models\\emailnotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A1A5496-D999-4DED-90B1-B6A292C776DF}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\models\\emailnotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\amrut\\Downloads\\response_1737719751952.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A1A5496-D999-4DED-90B1-B6A292C776DF}|NotificationService\\NotificationService.csproj|c:\\users\\amrut\\videos\\notificationservice\\notificationservice\\errorhandling\\errorcodes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A1A5496-D999-4DED-90B1-B6A292C776DF}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\errorhandling\\errorcodes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A1A5496-D999-4DED-90B1-B6A292C776DF}|NotificationService\\NotificationService.csproj|c:\\users\\amrut\\videos\\notificationservice\\notificationservice\\errorhandling\\errormessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A1A5496-D999-4DED-90B1-B6A292C776DF}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\errorhandling\\errormessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A1A5496-D999-4DED-90B1-B6A292C776DF}|NotificationService\\NotificationService.csproj|c:\\users\\amrut\\videos\\notificationservice\\notificationservice\\services\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A1A5496-D999-4DED-90B1-B6A292C776DF}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\services\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A1A5496-D999-4DED-90B1-B6A292C776DF}|NotificationService\\NotificationService.csproj|c:\\users\\amrut\\videos\\notificationservice\\notificationservice\\dtos\\emailnotificationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A1A5496-D999-4DED-90B1-B6A292C776DF}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\dtos\\emailnotificationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A1A5496-D999-4DED-90B1-B6A292C776DF}|NotificationService\\NotificationService.csproj|c:\\users\\amrut\\videos\\notificationservice\\notificationservice\\dtos\\emailnotificationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A1A5496-D999-4DED-90B1-B6A292C776DF}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\dtos\\emailnotificationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB46738F-0232-426A-AAEC-8FD9290A44D0}|NotificationService.Tests\\NotificationService.Tests.csproj|c:\\users\\amrut\\videos\\notificationservice\\notificationservice.tests\\notificationservice.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FB46738F-0232-426A-AAEC-8FD9290A44D0}|NotificationService.Tests\\NotificationService.Tests.csproj|solutionrelative:notificationservice.tests\\notificationservice.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A1A5496-D999-4DED-90B1-B6A292C776DF}|NotificationService\\NotificationService.csproj|c:\\users\\amrut\\videos\\notificationservice\\notificationservice\\models\\smtpsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A1A5496-D999-4DED-90B1-B6A292C776DF}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\models\\smtpsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A1A5496-D999-4DED-90B1-B6A292C776DF}|NotificationService\\NotificationService.csproj|c:\\users\\amrut\\videos\\notificationservice\\notificationservice\\errorhandling\\errorresponseoperationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A1A5496-D999-4DED-90B1-B6A292C776DF}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\errorhandling\\errorresponseoperationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A1A5496-D999-4DED-90B1-B6A292C776DF}|NotificationService\\NotificationService.csproj|c:\\users\\amrut\\videos\\notificationservice\\notificationservice\\errorhandling\\errorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A1A5496-D999-4DED-90B1-B6A292C776DF}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\errorhandling\\errorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A1A5496-D999-4DED-90B1-B6A292C776DF}|NotificationService\\NotificationService.csproj|c:\\users\\amrut\\videos\\notificationservice\\notificationservice\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A1A5496-D999-4DED-90B1-B6A292C776DF}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A1A5496-D999-4DED-90B1-B6A292C776DF}|NotificationService\\NotificationService.csproj|c:\\users\\amrut\\videos\\notificationservice\\notificationservice\\services\\iemailsenderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A1A5496-D999-4DED-90B1-B6A292C776DF}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\services\\iemailsenderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 22,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmailJob.cs",
+              "DocumentMoniker": "C:\\Users\\amrut\\Videos\\NotificationService\\NotificationService\\BackgroundJobs\\EmailJob.cs",
+              "RelativeDocumentMoniker": "NotificationService\\BackgroundJobs\\EmailJob.cs",
+              "ToolTip": "C:\\Users\\amrut\\Videos\\NotificationService\\NotificationService\\BackgroundJobs\\EmailJob.cs",
+              "RelativeToolTip": "NotificationService\\BackgroundJobs\\EmailJob.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T14:34:02.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmailSenderService.cs",
+              "DocumentMoniker": "C:\\Users\\amrut\\Videos\\NotificationService\\NotificationService\\Services\\EmailSenderService.cs",
+              "RelativeDocumentMoniker": "NotificationService\\Services\\EmailSenderService.cs",
+              "ToolTip": "C:\\Users\\amrut\\Videos\\NotificationService\\NotificationService\\Services\\EmailSenderService.cs",
+              "RelativeToolTip": "NotificationService\\Services\\EmailSenderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T13:45:11.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmailNotificationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\amrut\\Videos\\NotificationService\\NotificationService\\Repositories\\EmailNotificationRepository.cs",
+              "RelativeDocumentMoniker": "NotificationService\\Repositories\\EmailNotificationRepository.cs",
+              "ToolTip": "C:\\Users\\amrut\\Videos\\NotificationService\\NotificationService\\Repositories\\EmailNotificationRepository.cs",
+              "RelativeToolTip": "NotificationService\\Repositories\\EmailNotificationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T17:14:28.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DBExecuter.cs",
+              "DocumentMoniker": "C:\\Users\\amrut\\Videos\\NotificationService\\NotificationService\\Utilities\\DBExecuter.cs",
+              "RelativeDocumentMoniker": "NotificationService\\Utilities\\DBExecuter.cs",
+              "ToolTip": "C:\\Users\\amrut\\Videos\\NotificationService\\NotificationService\\Utilities\\DBExecuter.cs",
+              "RelativeToolTip": "NotificationService\\Utilities\\DBExecuter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T09:24:54.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\amrut\\Videos\\NotificationService\\NotificationService\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "NotificationService\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\amrut\\Videos\\NotificationService\\NotificationService\\Properties\\launchSettings.json",
+              "RelativeToolTip": "NotificationService\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-23T11:37:39.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\amrut\\Videos\\NotificationService\\NotificationService\\Dockerfile",
+              "RelativeDocumentMoniker": "NotificationService\\Dockerfile",
+              "ToolTip": "C:\\Users\\amrut\\Videos\\NotificationService\\NotificationService\\Dockerfile",
+              "RelativeToolTip": "NotificationService\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-02-03T18:32:56.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\amrut\\Videos\\NotificationService\\NotificationService\\Program.cs",
+              "RelativeDocumentMoniker": "NotificationService\\Program.cs",
+              "ToolTip": "C:\\Users\\amrut\\Videos\\NotificationService\\NotificationService\\Program.cs",
+              "RelativeToolTip": "NotificationService\\Program.cs",
+              "ViewState": "AgIAALgAAAAAAAAAAAAgwMIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T07:02:06.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NotificationService.csproj",
+              "DocumentMoniker": "C:\\Users\\amrut\\Videos\\NotificationService\\NotificationService\\NotificationService.csproj",
+              "RelativeDocumentMoniker": "NotificationService\\NotificationService.csproj",
+              "ToolTip": "C:\\Users\\amrut\\Videos\\NotificationService\\NotificationService\\NotificationService.csproj",
+              "RelativeToolTip": "NotificationService\\NotificationService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-03T14:32:01.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\amrut\\Videos\\NotificationService\\NotificationService\\appsettings.json",
+              "RelativeDocumentMoniker": "NotificationService\\appsettings.json",
+              "ToolTip": "C:\\Users\\amrut\\Videos\\NotificationService\\NotificationService\\appsettings.json",
+              "RelativeToolTip": "NotificationService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-22T14:06:04.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EmailNotificationController.cs",
+              "DocumentMoniker": "C:\\Users\\amrut\\Videos\\NotificationService\\NotificationService\\Controllers\\EmailNotificationController.cs",
+              "RelativeDocumentMoniker": "NotificationService\\Controllers\\EmailNotificationController.cs",
+              "ToolTip": "C:\\Users\\amrut\\Videos\\NotificationService\\NotificationService\\Controllers\\EmailNotificationController.cs",
+              "RelativeToolTip": "NotificationService\\Controllers\\EmailNotificationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T12:53:41.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NLog.config",
+              "DocumentMoniker": "C:\\Users\\amrut\\Videos\\NotificationService\\NotificationService\\NLog.config",
+              "RelativeDocumentMoniker": "NotificationService\\NLog.config",
+              "ToolTip": "C:\\Users\\amrut\\Videos\\NotificationService\\NotificationService\\NLog.config",
+              "RelativeToolTip": "NotificationService\\NLog.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-01-23T20:15:47.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NotificationService.http",
+              "DocumentMoniker": "C:\\Users\\amrut\\Videos\\NotificationService\\NotificationService\\NotificationService.http",
+              "RelativeDocumentMoniker": "NotificationService\\NotificationService.http",
+              "ToolTip": "C:\\Users\\amrut\\Videos\\NotificationService\\NotificationService\\NotificationService.http",
+              "RelativeToolTip": "NotificationService\\NotificationService.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-02-02T06:41:39.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EmailNotificationControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\amrut\\Videos\\NotificationService\\NotificationService.Tests\\Controllers\\EmailNotificationControllerTests.cs",
+              "RelativeDocumentMoniker": "NotificationService.Tests\\Controllers\\EmailNotificationControllerTests.cs",
+              "ToolTip": "C:\\Users\\amrut\\Videos\\NotificationService\\NotificationService.Tests\\Controllers\\EmailNotificationControllerTests.cs",
+              "RelativeToolTip": "NotificationService.Tests\\Controllers\\EmailNotificationControllerTests.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAADwvxAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T13:42:36.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IEmailNotificationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\amrut\\Videos\\NotificationService\\NotificationService\\Repositories\\IEmailNotificationRepository.cs",
+              "RelativeDocumentMoniker": "NotificationService\\Repositories\\IEmailNotificationRepository.cs",
+              "ToolTip": "C:\\Users\\amrut\\Videos\\NotificationService\\NotificationService\\Repositories\\IEmailNotificationRepository.cs",
+              "RelativeToolTip": "NotificationService\\Repositories\\IEmailNotificationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T19:57:48.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EmailNotification.cs",
+              "DocumentMoniker": "C:\\Users\\amrut\\Videos\\NotificationService\\NotificationService\\Models\\EmailNotification.cs",
+              "RelativeDocumentMoniker": "NotificationService\\Models\\EmailNotification.cs",
+              "ToolTip": "C:\\Users\\amrut\\Videos\\NotificationService\\NotificationService\\Models\\EmailNotification.cs",
+              "RelativeToolTip": "NotificationService\\Models\\EmailNotification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T12:54:17.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ErrorMessages.cs",
+              "DocumentMoniker": "C:\\Users\\amrut\\Videos\\NotificationService\\NotificationService\\ErrorHandling\\ErrorMessages.cs",
+              "RelativeDocumentMoniker": "NotificationService\\ErrorHandling\\ErrorMessages.cs",
+              "ToolTip": "C:\\Users\\amrut\\Videos\\NotificationService\\NotificationService\\ErrorHandling\\ErrorMessages.cs",
+              "RelativeToolTip": "NotificationService\\ErrorHandling\\ErrorMessages.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T16:49:15.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ErrorCodes.cs",
+              "DocumentMoniker": "C:\\Users\\amrut\\Videos\\NotificationService\\NotificationService\\ErrorHandling\\ErrorCodes.cs",
+              "RelativeDocumentMoniker": "NotificationService\\ErrorHandling\\ErrorCodes.cs",
+              "ToolTip": "C:\\Users\\amrut\\Videos\\NotificationService\\NotificationService\\ErrorHandling\\ErrorCodes.cs",
+              "RelativeToolTip": "NotificationService\\ErrorHandling\\ErrorCodes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T16:48:50.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "JwtTokenService.cs",
+              "DocumentMoniker": "C:\\Users\\amrut\\Videos\\NotificationService\\NotificationService\\Services\\JwtTokenService.cs",
+              "RelativeDocumentMoniker": "NotificationService\\Services\\JwtTokenService.cs",
+              "ToolTip": "C:\\Users\\amrut\\Videos\\NotificationService\\NotificationService\\Services\\JwtTokenService.cs",
+              "RelativeToolTip": "NotificationService\\Services\\JwtTokenService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwEAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T11:40:02.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "EmailNotificationRequest.cs",
+              "DocumentMoniker": "C:\\Users\\amrut\\Videos\\NotificationService\\NotificationService\\DTOs\\EmailNotificationRequest.cs",
+              "RelativeDocumentMoniker": "NotificationService\\DTOs\\EmailNotificationRequest.cs",
+              "ToolTip": "C:\\Users\\amrut\\Videos\\NotificationService\\NotificationService\\DTOs\\EmailNotificationRequest.cs",
+              "RelativeToolTip": "NotificationService\\DTOs\\EmailNotificationRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T07:44:03.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "EmailNotificationResponse.cs",
+              "DocumentMoniker": "C:\\Users\\amrut\\Videos\\NotificationService\\NotificationService\\DTOs\\EmailNotificationResponse.cs",
+              "RelativeDocumentMoniker": "NotificationService\\DTOs\\EmailNotificationResponse.cs",
+              "ToolTip": "C:\\Users\\amrut\\Videos\\NotificationService\\NotificationService\\DTOs\\EmailNotificationResponse.cs",
+              "RelativeToolTip": "NotificationService\\DTOs\\EmailNotificationResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T07:47:49.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "NotificationService.Tests.csproj",
+              "DocumentMoniker": "C:\\Users\\amrut\\Videos\\NotificationService\\NotificationService.Tests\\NotificationService.Tests.csproj",
+              "RelativeDocumentMoniker": "NotificationService.Tests\\NotificationService.Tests.csproj",
+              "ToolTip": "C:\\Users\\amrut\\Videos\\NotificationService\\NotificationService.Tests\\NotificationService.Tests.csproj",
+              "RelativeToolTip": "NotificationService.Tests\\NotificationService.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-24T14:23:49.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SmtpSettings.cs",
+              "DocumentMoniker": "C:\\Users\\amrut\\Videos\\NotificationService\\NotificationService\\Models\\SmtpSettings.cs",
+              "RelativeDocumentMoniker": "NotificationService\\Models\\SmtpSettings.cs",
+              "ToolTip": "C:\\Users\\amrut\\Videos\\NotificationService\\NotificationService\\Models\\SmtpSettings.cs",
+              "RelativeToolTip": "NotificationService\\Models\\SmtpSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T10:57:11.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ErrorResponseOperationFilter.cs",
+              "DocumentMoniker": "C:\\Users\\amrut\\Videos\\NotificationService\\NotificationService\\ErrorHandling\\ErrorResponseOperationFilter.cs",
+              "RelativeDocumentMoniker": "NotificationService\\ErrorHandling\\ErrorResponseOperationFilter.cs",
+              "ToolTip": "C:\\Users\\amrut\\Videos\\NotificationService\\NotificationService\\ErrorHandling\\ErrorResponseOperationFilter.cs",
+              "RelativeToolTip": "NotificationService\\ErrorHandling\\ErrorResponseOperationFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T17:19:19.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ErrorResponse.cs",
+              "DocumentMoniker": "C:\\Users\\amrut\\Videos\\NotificationService\\NotificationService\\ErrorHandling\\ErrorResponse.cs",
+              "RelativeDocumentMoniker": "NotificationService\\ErrorHandling\\ErrorResponse.cs",
+              "ToolTip": "C:\\Users\\amrut\\Videos\\NotificationService\\NotificationService\\ErrorHandling\\ErrorResponse.cs",
+              "RelativeToolTip": "NotificationService\\ErrorHandling\\ErrorResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T17:15:37.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ExceptionHandlingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\amrut\\Videos\\NotificationService\\NotificationService\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "NotificationService\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "ToolTip": "C:\\Users\\amrut\\Videos\\NotificationService\\NotificationService\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "RelativeToolTip": "NotificationService\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAQwDEAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T06:49:26.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IEmailSenderService.cs",
+              "DocumentMoniker": "C:\\Users\\amrut\\Videos\\NotificationService\\NotificationService\\Services\\IEmailSenderService.cs",
+              "RelativeDocumentMoniker": "NotificationService\\Services\\IEmailSenderService.cs",
+              "ToolTip": "C:\\Users\\amrut\\Videos\\NotificationService\\NotificationService\\Services\\IEmailSenderService.cs",
+              "RelativeToolTip": "NotificationService\\Services\\IEmailSenderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T06:46:54.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "response_1737719751952.json",
+              "DocumentMoniker": "C:\\Users\\amrut\\Downloads\\response_1737719751952.json",
+              "RelativeDocumentMoniker": "..\\..\\Downloads\\response_1737719751952.json",
+              "ToolTip": "C:\\Users\\amrut\\Downloads\\response_1737719751952.json",
+              "RelativeToolTip": "..\\..\\Downloads\\response_1737719751952.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-24T12:01:23.042Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
