@@ -26,7 +26,7 @@ jobs:
           aws ecr get-login-password --region ${{ secrets.AWS_REGION }} | docker login --username AWS --password-stdin ${{ secrets.REPOSITORY }}
 
       - name: Build Docker Image
-        run: docker build -t vibrant_chandrasekhar -f NotificationService/Dockerfile .
+        run: docker build -t notificationservice1 -f NotificationService/Dockerfile .
 
       - name: Tag Docker Image
         run: |
