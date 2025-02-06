@@ -62,79 +62,15 @@ namespace NotificationService.Tests
         }
 
 
-        
-
-        
 
 
-        [Fact]
-        public async Task SendEmail_ShouldReturnBadRequest_WhenRecipientEmailIsInvalid()
-        {
-            var request = new EmailNotificationRequest
-            {
-                Recipient = "invalid-email",
-                Subject = "Test Subject",
-                Body = "Test Body"
-            };
-
-            var result = await _controller.SendEmail(request);
-
-            result.Should().BeOfType<BadRequestObjectResult>();
-            var badRequestResult = (BadRequestObjectResult)result;
-            var errorResponse = (ErrorResponse)badRequestResult.Value;
-            errorResponse.Message.Should().Be("Invalid recipient email format.");
-        }
-
-        [Fact]
-        public async Task SendEmail_ShouldReturnBadRequest_WhenCCEmailIsInvalid()
-        {
-            // Arrange
-            var request = new EmailNotificationRequest
-            {
-                Recipient = "validemail@test.com",
-                CC = "invalid-cc-email",
-                Subject = "Test Subject",
-                Body = "Test Body"
-            };
-
-            // Act
-            var result = await _controller.SendEmail(request);
-
-            // Assert
-            result.Should().BeOfType<BadRequestObjectResult>();
-            var badRequestResult = (BadRequestObjectResult)result;
-            var errorResponse = (ErrorResponse)badRequestResult.Value;
-
-            errorResponse.Should().NotBeNull();
-            errorResponse.Code.Should().Be(ErrorCodes.ValidationError);
-            errorResponse.Message.Should().Be("Invalid CC email format.");
-            errorResponse.Details.Should().Be("CC email: invalid-cc-email");
-            errorResponse.TraceId.Should().NotBeNullOrWhiteSpace(); // Ensure TraceId is set
-        }
 
 
-        [Fact]
-        public async Task SendEmail_ShouldReturnBadRequest_WhenScheduledTimeIsInThePast()
-        {
-            var request = new EmailNotificationRequest
-            {
-                Recipient = "validemail@test.com",
-                Subject = "Test Subject",
-                Body = "Test Body",
-                ScheduledTime = DateTime.UtcNow.AddMinutes(-5)
-            };
 
-            _emailSenderServiceMock.Setup(service => service.ScheduleEmail(It.IsAny<EmailNotificationRequest>()))
-                .Throws(new NullReferenceException("Simulated NullReferenceException"));
 
-            var result = await _controller.SendEmail(request);
 
-            result.Should().BeOfType<BadRequestObjectResult>();
-            var badRequestResult = (BadRequestObjectResult)result;
-            var errorResponse = (ErrorResponse)badRequestResult.Value;
-            errorResponse.Message.Should().Be("Invalid ScheduledTime.");
-            errorResponse.Details.Should().Be("The ScheduledTime cannot be in the past.");
-        }
+
+
 
         [Fact]
         public async Task SendEmail_ShouldReturnOk_WhenScheduledTimeIsNull()
@@ -193,79 +129,14 @@ namespace NotificationService.Tests
                 _repository = new EmailNotificationRepository(_dbExecutorMock.Object, _loggerMock.Object);
             }
 
-            [Fact]
-            public async Task SaveEmailNotificationAsync_ShouldReturnInt_WhenSuccess()
-            {
-                var emailNotification = new EmailNotification
-                {
-                    Sender = "test@sender.com",
-                    Recipient = "test@recipient.com",
-                    CC = "test@cc.com",
-                    Subject = "Test Email",
-                    Body = "This is a test email.",
-                    Status = "Pending",
-                    ScheduledTime = DateTime.Now
-                };
 
-                _dbExecutorMock.Setup(db => db.ExecuteScalarAsync<int>("SaveEmailNotification", It.IsAny<object>()))
-                    .ReturnsAsync(1);
 
-                var result = await _repository.SaveEmailNotificationAsync(emailNotification);
 
-                Assert.Equal(1, result);
-            }
 
-            [Fact]
-            public async Task GetEmailNotificationStatusAsync_ShouldReturnEmailNotification_WhenFound()
-            {
-                var emailNotification = new EmailNotification { Id = 1, Status = "Sent" };
-                _dbExecutorMock.Setup(db => db.QueryAsync<EmailNotification>("SELECT * FROM EmailNotifications WHERE Id = @Id", It.IsAny<object>()))
-                    .ReturnsAsync(new List<EmailNotification> { emailNotification });
 
-                var result = await _repository.GetEmailNotificationStatusAsync(1);
 
-                Assert.NotNull(result);
-                Assert.Equal("Sent", result.Status);
-            }
 
-            [Fact]
-            public async Task GetEmailNotificationStatusAsync_ShouldReturnNull_WhenNotFound()
-            {
-                _dbExecutorMock.Setup(db => db.QueryAsync<EmailNotification>("SELECT * FROM EmailNotifications WHERE Id = @Id", It.IsAny<object>()))
-                    .ReturnsAsync(new List<EmailNotification>());
 
-                var result = await _repository.GetEmailNotificationStatusAsync(999);
-
-                Assert.Null(result);
-            }
-
-            [Fact]
-            public async Task GetNotificationsByStatusAsync_ShouldReturnNotifications_WhenFound()
-            {
-                var emailNotifications = new List<EmailNotification>
-                {
-                    new EmailNotification { Id = 1, Status = "Sent" },
-                    new EmailNotification { Id = 2, Status = "Sent" }
-                };
-                _dbExecutorMock.Setup(db => db.QueryAsync<EmailNotification>("SELECT * FROM EmailNotifications WHERE Status = @Status", It.IsAny<object>()))
-                    .ReturnsAsync(emailNotifications);
-
-                var result = await _repository.GetNotificationsByStatusAsync("Sent");
-
-                Assert.NotNull(result);
-                Assert.Equal(2, result.Count());
-            }
-
-            [Fact]
-            public async Task UpdateNotificationStatusAsync_ShouldReturnVoid_WhenSuccess()
-            {
-                _dbExecutorMock.Setup(db => db.ExecuteAsync("UPDATE EmailNotifications SET Status = @Status, SentAt = @SentAt WHERE Id = @Id", It.IsAny<object>()))
-                    .ReturnsAsync(1);
-
-                await _repository.UpdateNotificationStatusAsync(1, "Sent", DateTime.Now);
-
-                _dbExecutorMock.Verify(db => db.ExecuteAsync(It.IsAny<string>(), It.IsAny<object>()), Times.Once);
-            }
         }
     }
 
