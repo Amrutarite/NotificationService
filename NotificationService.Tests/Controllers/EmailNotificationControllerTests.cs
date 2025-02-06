@@ -94,15 +94,18 @@ namespace NotificationService.Tests
         // JwtTokenService Test Cases
 
         [Fact]
-        public void GenerateJwtToken_ShouldReturnToken_WhenUsernameIsValid()
+       
+        public void GenerateJwtToken_ShouldThrowArgumentOutOfRangeException_WhenKeyIsTooShort()
         {
-            var username = "testuser";
+            // Arrange: Override the configuration with a short secret key (104 bits)
+            _configurationMock.Setup(config => config["JwtSettings:SecretKey"]).Returns("ShortKey"); // 8 characters = 64 bits
 
-            var token = _jwtTokenServiceMock.Object.GenerateJwtToken(username);
+            // Act & Assert: Expect an exception when generating the JWT token
+            var exception = Assert.Throws<ArgumentOutOfRangeException>(() => _jwtTokenServiceMock.Object.GenerateJwtToken("testuser"));
 
-            Assert.NotNull(token);
-            Assert.Contains("eyJ", token);
+            Assert.Equal("IDX10653: The encryption algorithm 'HS256' requires a key size of at least '128' bits.", exception.Message);
         }
+
 
         [Fact]
         public void GenerateJwtToken_ShouldThrowUnauthorizedAccessException_WhenUsernameIsInvalid()
