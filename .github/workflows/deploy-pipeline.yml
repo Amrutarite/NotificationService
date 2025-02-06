@@ -45,25 +45,31 @@ jobs:
 
       - name: Set IMAGE_TAG
         run: |
-          # Use manually defined version if no tag exists
+          # Check if 'deploy_version' input is set, use it as IMAGE_TAG
           IMAGE_TAG="${{ github.event.inputs.deploy_version }}"
           
-          # Check if IMAGE_TAG is empty, and set a default value if it is
+          # Debug the IMAGE_TAG
+          echo "Deploy Version: $IMAGE_TAG"
+          
+          # If IMAGE_TAG is empty, set default value
           if [ -z "$IMAGE_TAG" ]; then
             IMAGE_TAG="v1.0.0"
           fi
-
-          echo "Using IMAGE_TAG: $IMAGE_TAG"  # Debug the IMAGE_TAG
+          
+          # Confirm IMAGE_TAG value
+          echo "Using IMAGE_TAG: $IMAGE_TAG"
 
       - name: Tag Docker Image
         run: |
           echo "Tagging image with $IMAGE_TAG"
-          # Ensure IMAGE_TAG is formatted correctly
+          
+          # Ensure IMAGE_TAG is used correctly in docker tag command
           docker tag notificationservice:latest ${{ secrets.REPOSITORY }}:$IMAGE_TAG
 
       - name: Push Docker Image
         run: |
           echo "Pushing Docker image with tag $IMAGE_TAG"
+          
           # Ensure that IMAGE_TAG is used correctly in the push command
           docker push ${{ secrets.REPOSITORY }}:$IMAGE_TAG
           docker push ${{ secrets.REPOSITORY }}:latest
