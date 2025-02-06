@@ -42,8 +42,8 @@ jobs:
       - name: Build Docker Image
         run: |
           # Build the Docker image with correct name
-          docker build -t ${{ secrets.REPOSITORY }}:latest -f NotificationService/Dockerfile .
-          docker tag ${{ secrets.REPOSITORY }}:latest ${{ secrets.REPOSITORY }}:${{ github.event.inputs.deploy_version }}
+          docker build -t notificationservice2:latest -f NotificationService/Dockerfile .
+          docker tag notificationservice2:latest ${{ secrets.REPOSITORY }}:${{ github.event.inputs.deploy_version }}
 
       - name: Tag and Push Docker Image
         run: |
@@ -55,6 +55,9 @@ jobs:
             IMAGE_TAG="v1.0.0"
           fi
 
+          echo "Using IMAGE_TAG: $IMAGE_TAG"
+
+          # Ensure valid IMAGE_TAG format
           docker push ${{ secrets.REPOSITORY }}:$IMAGE_TAG
           docker push ${{ secrets.REPOSITORY }}:latest
 
@@ -72,6 +75,6 @@ jobs:
             docker stop notificationservice1 || true &&
             docker rm notificationservice1 || true &&
             aws ecr get-login-password --region ${{ secrets.AWS_REGION }} | docker login --username AWS --password-stdin ${{ secrets.REPOSITORY }} &&
-            docker pull ${{ secrets.REPOSITORY }}:latest &&
-            docker run -d -p 80:80 --name notificationservice1 ${{ secrets.REPOSITORY }}:latest
+            docker pull ${{ secrets.REPOSITORY }}:$IMAGE_TAG &&
+            docker run -d -p 80:80 --name notificationservice1 ${{ secrets.REPOSITORY }}:$IMAGE_TAG
           "
