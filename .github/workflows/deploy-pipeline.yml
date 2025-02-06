@@ -2,8 +2,6 @@ name: Deploy to EC2
 
 on:
   push:
-    branches:
-      - main  # Trigger only on push to 'main' branch
     tags:
       - "v*-dev-deploy"  # Trigger only on tags for 'dev' deployment
   workflow_dispatch:
@@ -11,11 +9,13 @@ on:
       deploy_version:
         type: string
         description: Version to deploy in format vX.Y.Z
+        default: "v1.0.0"  # Default version in case no tag exists
       deploy_environment:
         type: choice
         description: Deploy Environment
         options:
           - dev
+          - prod
 
 jobs:
   deploy:
@@ -42,7 +42,8 @@ jobs:
 
       - name: Tag and Push Docker Image
         run: |
-          IMAGE_TAG=$(git describe --tags)  # Getting version tag, if exists
+          # Use manually defined version if no tag exists
+          IMAGE_TAG="${{ github.event.inputs.deploy_version }}" 
           docker tag notificationservice1 ${{ secrets.REPOSITORY }}:$IMAGE_TAG
           docker tag notificationservice1 ${{ secrets.REPOSITORY }}:latest
           docker push ${{ secrets.REPOSITORY }}:$IMAGE_TAG
