@@ -7,7 +7,7 @@ on:
 
 jobs:
   deploy:
-    name: Deploy Docker Image to EC2
+    name: Build, Push Docker Image, and Deploy to EC2
     runs-on: ubuntu-latest
 
     steps:
@@ -24,6 +24,17 @@ jobs:
       - name: Login to Amazon ECR
         run: |
           aws ecr get-login-password --region ${{ secrets.AWS_REGION }} | docker login --username AWS --password-stdin ${{ secrets.REPOSITORY }}
+
+      - name: Build Docker Image
+        run: docker build -t notificationservice1 -f NotificationService/Dockerfile .
+
+      - name: Tag and Push Docker Image
+        run: |
+          IMAGE_TAG=$(git rev-parse --short HEAD)
+          docker tag notificationservice1 ${{ secrets.REPOSITORY }}:$IMAGE_TAG
+          docker tag notificationservice1 ${{ secrets.REPOSITORY }}:latest
+          docker push ${{ secrets.REPOSITORY }}:$IMAGE_TAG
+          docker push ${{ secrets.REPOSITORY }}:latest
 
       - name: Create SSH Key File
         run: |
