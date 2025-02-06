@@ -1,7 +1,9 @@
-name: Deploy to EC2 
+name: Deploy to EC2
 
 on:
   push:
+    branches:
+      - main  # Trigger only on push to 'main' branch
     tags:
       - "v*-dev-deploy"  # Trigger only on tags for 'dev' deployment
   workflow_dispatch:
@@ -40,7 +42,7 @@ jobs:
 
       - name: Tag and Push Docker Image
         run: |
-          IMAGE_TAG=$(git rev-parse --short HEAD)
+          IMAGE_TAG=$(git describe --tags)  # Getting version tag, if exists
           docker tag notificationservice1 ${{ secrets.REPOSITORY }}:$IMAGE_TAG
           docker tag notificationservice1 ${{ secrets.REPOSITORY }}:latest
           docker push ${{ secrets.REPOSITORY }}:$IMAGE_TAG
