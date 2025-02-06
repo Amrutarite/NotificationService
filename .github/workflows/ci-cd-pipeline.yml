@@ -32,6 +32,9 @@ jobs:
       - name: Restore dependencies
         run: dotnet restore NotificationService/NotificationService.csproj
 
+      - name: Run Unit Tests
+        run: dotnet test NotificationService.Tests/NotificationService.Tests.csproj --logger trx --results-directory TestResults
+
       - name: Build Docker Image
         run: docker build -t notificationservice1 -f NotificationService/Dockerfile .
 
