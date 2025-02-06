@@ -44,8 +44,14 @@ jobs:
 
       - name: Tag and Push Docker Image
         run: |
-          # Use manually defined version if no tag exists
-          IMAGE_TAG="${{ github.event.inputs.deploy_version }}" 
+          # Ensure valid IMAGE_TAG
+          IMAGE_TAG="${{ github.event.inputs.deploy_version }}"
+          
+          # Check if IMAGE_TAG is empty, and set a default value if it is
+          if [ -z "$IMAGE_TAG" ]; then
+            IMAGE_TAG="v1.0.0"
+          fi
+
           docker tag notificationservice1 ${{ secrets.REPOSITORY }}:$IMAGE_TAG
           docker tag notificationservice1 ${{ secrets.REPOSITORY }}:latest
           docker push ${{ secrets.REPOSITORY }}:$IMAGE_TAG
