@@ -42,13 +42,12 @@ jobs:
       - name: Build Docker Image
         run: |
           # Build the Docker image with correct name
-          docker build -t notificationservice2:latest -f NotificationService/Dockerfile .
-          docker tag notificationservice2:latest ${{ secrets.REPOSITORY }}:${{ github.event.inputs.deploy_version }}
+          docker build -t notificationservice:latest -f NotificationService/Dockerfile .
 
-      - name: Tag and Push Docker Image
+      - name: Tag Docker Image
         run: |
-          # Use manually defined version if no tag exists
-          IMAGE_TAG="${{ github.event.inputs.deploy_version }}"
+          # Ensure IMAGE_TAG is correctly set
+          IMAGE_TAG="${{ github.event.inputs.deploy_version }}" 
           
           # Check if IMAGE_TAG is empty, and set a default value if it is
           if [ -z "$IMAGE_TAG" ]; then
@@ -57,7 +56,12 @@ jobs:
 
           echo "Using IMAGE_TAG: $IMAGE_TAG"
 
-          # Ensure valid IMAGE_TAG format
+          # Tag the image with the correct format
+          docker tag notificationservice:latest ${{ secrets.REPOSITORY }}:$IMAGE_TAG
+
+      - name: Push Docker Image
+        run: |
+          # Ensure that IMAGE_TAG is used correctly in the push command
           docker push ${{ secrets.REPOSITORY }}:$IMAGE_TAG
           docker push ${{ secrets.REPOSITORY }}:latest
 
