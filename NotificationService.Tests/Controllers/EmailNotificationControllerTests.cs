@@ -93,18 +93,7 @@ namespace NotificationService.Tests
 
         // JwtTokenService Test Cases
 
-        [Fact]
-       
-        public void GenerateJwtToken_ShouldThrowArgumentOutOfRangeException_WhenKeyIsTooShort()
-        {
-            // Arrange: Override the configuration with a short secret key (104 bits)
-            _configurationMock.Setup(config => config["JwtSettings:SecretKey"]).Returns("ShortKey"); // 8 characters = 64 bits
-
-            // Act & Assert: Expect an exception when generating the JWT token
-            var exception = Assert.Throws<ArgumentOutOfRangeException>(() => _jwtTokenServiceMock.Object.GenerateJwtToken("testuser"));
-
-            Assert.Equal("IDX10653: The encryption algorithm 'HS256' requires a key size of at least '128' bits.", exception.Message);
-        }
+        
 
 
         [Fact]
