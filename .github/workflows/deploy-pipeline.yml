@@ -1,23 +1,9 @@
-name: Deploy to EC2
+name: Deploy to EC2 
 
 on:
   push:
     branches:
-      - "main"  # Trigger on main branch
-    tags:
-      - "v*-dev-deploy"  # Trigger only on tags for 'dev' deployment
-  workflow_dispatch:
-    inputs:
-      deploy_version:
-        type: string
-        description: Version to deploy in format vX.Y.Z
-        default: "v1.0.0"  # Default version in case no tag exists
-      deploy_environment:
-        type: choice
-        description: Deploy Environment
-        options:
-          - dev
-          - prod
+      - main  # Ensure this matches your default branch name
 
 jobs:
   deploy:
@@ -40,37 +26,13 @@ jobs:
           aws ecr get-login-password --region ${{ secrets.AWS_REGION }} | docker login --username AWS --password-stdin ${{ secrets.REPOSITORY }}
 
       - name: Build Docker Image
-        run: |
-          docker build -t notificationservice:latest -f NotificationService/Dockerfile .
+        run: docker build -t notificationservice1 -f NotificationService/Dockerfile .
 
-      - name: Set IMAGE_TAG
+      - name: Tag and Push Docker Image
         run: |
-          # Check if 'deploy_version' input is set, use it as IMAGE_TAG
-          IMAGE_TAG="${{ github.event.inputs.deploy_version }}"
-          
-          # Debug the IMAGE_TAG
-          echo "Deploy Version: $IMAGE_TAG"
-          
-          # If IMAGE_TAG is empty, set default value
-          if [ -z "$IMAGE_TAG" ]; then
-            IMAGE_TAG="v1.0.0"
-          fi
-          
-          # Confirm IMAGE_TAG value
-          echo "Using IMAGE_TAG: $IMAGE_TAG"
-
-      - name: Tag Docker Image
-        run: |
-          echo "Tagging image with $IMAGE_TAG"
-          
-          # Ensure IMAGE_TAG is used correctly in docker tag command
-          docker tag notificationservice:latest ${{ secrets.REPOSITORY }}:$IMAGE_TAG
-
-      - name: Push Docker Image
-        run: |
-          echo "Pushing Docker image with tag $IMAGE_TAG"
-          
-          # Ensure that IMAGE_TAG is used correctly in the push command
+          IMAGE_TAG=$(git rev-parse --short HEAD)
+          docker tag notificationservice1 ${{ secrets.REPOSITORY }}:$IMAGE_TAG
+          docker tag notificationservice1 ${{ secrets.REPOSITORY }}:latest
           docker push ${{ secrets.REPOSITORY }}:$IMAGE_TAG
           docker push ${{ secrets.REPOSITORY }}:latest
 
@@ -88,6 +50,6 @@ jobs:
             docker stop notificationservice1 || true &&
             docker rm notificationservice1 || true &&
             aws ecr get-login-password --region ${{ secrets.AWS_REGION }} | docker login --username AWS --password-stdin ${{ secrets.REPOSITORY }} &&
-            docker pull ${{ secrets.REPOSITORY }}:$IMAGE_TAG &&
-            docker run -d -p 80:80 --name notificationservice1 ${{ secrets.REPOSITORY }}:$IMAGE_TAG
+            docker pull ${{ secrets.REPOSITORY }}:latest &&
+            docker run -d -p 80:80 --name notificationservice1 ${{ secrets.REPOSITORY }}:latest
           "
