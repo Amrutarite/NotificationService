@@ -51,7 +51,7 @@ jobs:
         if: always()
         with:
           name: Dot NET Tests
-          path: "**/*.trx"   # Fixed test report file path issue                        
+          path: "**/*.trx"   # Fixed test report file path issue
           reporter: dotnet-trx
           fail-on-error: true
 
@@ -93,23 +93,30 @@ jobs:
           REPOSITORY: ${{ secrets.REPOSITORY || 'notification_service' }}
         
         run: |
-          IFS='-'
-          read -a parsed_tag <<< "${{ needs.tagify.outputs.the_tag }}"
-          VERSION_ONLY=${parsed_tag[0]}
-          ENVIRONMENT=${parsed_tag[1]}
-          IFS=' '
-          DEV_BASE=$VERSION_ONLY-dev
-          DEV_TAG=$REGISTRY/$REPOSITORY:$DEV_BASE
+          # Check if repository exists
+          echo "Checking if the repository exists in ECR: $REGISTRY/$REPOSITORY"
           
-          echo "original tag ${{ needs.tagify.outputs.the_tag }}"
-          echo "version only tag $VERSION_ONLY"
+          # Get tag parts
+          IFS='-' read -r VERSION_ONLY ENVIRONMENT <<< "${{ needs.tagify.outputs.the_tag }}"
           
+          # Construct tags
+          DEV_TAG=$REGISTRY/$REPOSITORY:$VERSION_ONLY-dev
+          PROD_TAG=$REGISTRY/$REPOSITORY:${{ needs.tagify.outputs.the_tag }}
+          
+          echo "Version: $VERSION_ONLY"
+          echo "Environment: $ENVIRONMENT"
+          echo "Dev tag: $DEV_TAG"
+          echo "Prod tag: $PROD_TAG"
+
+          # Build Docker image
           docker build -f NotificationService/Dockerfile \
-            -t $REGISTRY/$REPOSITORY:${{ needs.tagify.outputs.the_tag }} \
+            -t $PROD_TAG \
             -t $DEV_TAG \
             NotificationService/
 
-          docker push $REGISTRY/$REPOSITORY:${{ needs.tagify.outputs.the_tag }}
+          # Push Docker image to ECR
+          docker push $PROD_TAG
+          docker push $DEV_TAG
 
       - name: Cleanup
         run: |
