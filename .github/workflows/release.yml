@@ -87,18 +87,24 @@ jobs:
           echo "Checking available folders..."
           ls -R
 
+      - name: Check if ECR repository exists
+        run: |
+          REPOSITORY=${{ secrets.REPOSITORY || 'notification_service' }}
+          REGISTRY=${{ steps.login-ecr.outputs.registry }}
+          
+          # Check if the repository exists
+          echo "Checking if the repository exists in ECR: $REGISTRY/$REPOSITORY"
+          aws ecr describe-repositories --repository-names $REPOSITORY || aws ecr create-repository --repository-name $REPOSITORY
+
       - name: Build, tag, and push docker image to Amazon ECR
         env:
           REGISTRY: ${{ steps.login-ecr.outputs.registry }}
           REPOSITORY: ${{ secrets.REPOSITORY || 'notification_service' }}
         
         run: |
-          # Check if repository exists
-          echo "Checking if the repository exists in ECR: $REGISTRY/$REPOSITORY"
-          
           # Get tag parts
           IFS='-' read -r VERSION_ONLY ENVIRONMENT <<< "${{ needs.tagify.outputs.the_tag }}"
-          
+
           # Construct tags
           DEV_TAG=$REGISTRY/$REPOSITORY:$VERSION_ONLY-dev
           PROD_TAG=$REGISTRY/$REPOSITORY:${{ needs.tagify.outputs.the_tag }}
