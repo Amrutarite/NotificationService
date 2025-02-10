@@ -34,7 +34,7 @@ jobs:
     - name: Setup .NET
       uses: actions/setup-dotnet@v3
       with:
-        dotnet-version: 6.0.x
+        dotnet-version: 8.0.x  # Updated to support .NET 8.0
     - name: Restore dependencies
       run: dotnet restore $SOLUTION
     - name: Build
@@ -46,7 +46,7 @@ jobs:
       if: always()
       with:
         name: Dot NET Tests
-        path: "**/test-results.trx"                            
+        path: "**/*.trx"   # Fixed test report file path issue                       
         reporter: dotnet-trx
         fail-on-error: true
 
@@ -61,7 +61,7 @@ jobs:
      - name: Setup .NET
        uses: actions/setup-dotnet@v3
        with:
-         dotnet-version: 6.0.x
+         dotnet-version: 8.0.x  # Updated to support .NET 8.0
      
      - name: Configure AWS credentials
        uses: aws-actions/configure-aws-credentials@v4
