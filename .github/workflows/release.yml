@@ -61,21 +61,21 @@ jobs:
       - name: Setup .NET
         uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: 8.0.x  # Updated to support .NET 8.0
+          dotnet-version: 8.0.x
       
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v4
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws-region: ${{ secrets.AWS_REGION }} # Fixed AWS region issue
+          aws-region: ${{ secrets.AWS_REGION }}
 
       - name: Login to Amazon ECR
         id: login-ecr
         uses: aws-actions/amazon-ecr-login@v2
         with:
           mask-password: 'false'
-      
+
       - name: Debug Folder Structure
         run: |
           echo "Checking available folders..."
@@ -99,10 +99,11 @@ jobs:
           echo "original tag ${{ needs.tagify.outputs.the_tag }}"
           echo "version only tag $VERSION_ONLY"
           
-          docker build -f NotificationService/NotificationService/Dockerfile \
+          # ? FIXED: Corrected Docker build context path
+          docker build -f NotificationService/NotificationService/NotificationService/Dockerfile \
             -t $REGISTRY/$IMAGE_NAME:${{ needs.tagify.outputs.the_tag }} \
             -t $DEV_TAG \
-            NotificationService/
+            NotificationService/NotificationService/NotificationService/
 
           docker push $REGISTRY/$IMAGE_NAME:${{ needs.tagify.outputs.the_tag }}
 
