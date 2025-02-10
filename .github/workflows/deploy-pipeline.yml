@@ -92,6 +92,13 @@ jobs:
               docker rm -f notification1 || true
             fi
 
+            echo "Checking if port 8080 is in use..."
+            used_pid=$(sudo lsof -ti :8080)
+            if [ -n "$used_pid" ]; then
+              echo "Port 8080 is in use by PID $used_pid, stopping process..."
+              sudo kill -9 $used_pid
+            fi
+
             echo "Pulling latest image..."
             docker pull ${{ steps.login-ecr.outputs.registry }}/${{ secrets.REPOSITORY }}:${{ needs.tagify.outputs.the_tag }}
 
