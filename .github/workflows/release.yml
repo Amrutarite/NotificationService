@@ -94,7 +94,7 @@ jobs:
           echo "original tag ${{ needs.tagify.outputs.the_tag }}"
           echo "version only tag $VERSION_ONLY"
           
-          docker build -t $REGISTRY/$IMAGE_NAME:${{ needs.tagify.outputs.the_tag }} -t $DEV_TAG .
+          docker build -f NotificationService/NotificationService/NotificationService/Dockerfile -t $REGISTRY/$IMAGE_NAME:${{ needs.tagify.outputs.the_tag }} -t $DEV_TAG .
           docker push $REGISTRY/$IMAGE_NAME:${{ needs.tagify.outputs.the_tag }}
 
      - name: Cleanup
