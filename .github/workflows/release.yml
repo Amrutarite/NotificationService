@@ -1,11 +1,10 @@
 name: Release
 
-
 on:
   push:
     tags:
       - "v*-dev"
-      
+      - "v*-qa"
 
 permissions:
   contents: read
@@ -28,7 +27,7 @@ jobs:
 
   BuildAndUnitTests:
     env:
-      SOLUTION: 'NotificationService.sln'
+      SOLUTION: 'NotificationService/NotificationService.sln'  # Updated path
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
@@ -95,7 +94,12 @@ jobs:
           echo "original tag ${{ needs.tagify.outputs.the_tag }}"
           echo "version only tag $VERSION_ONLY"
           
-          docker build -f NotificationService/NotificationService/NotificationService/Dockerfile -t $REGISTRY/$IMAGE_NAME:${{ needs.tagify.outputs.the_tag }} -t $DEV_TAG .
+          
+          docker build -f NotificationService/NotificationService/NotificationService/Dockerfile \
+            -t $REGISTRY/$IMAGE_NAME:${{ needs.tagify.outputs.the_tag }} \
+            -t $DEV_TAG \
+            NotificationService/NotificationService/
+          
           docker push $REGISTRY/$IMAGE_NAME:${{ needs.tagify.outputs.the_tag }}
 
      - name: Cleanup
