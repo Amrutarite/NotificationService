@@ -99,11 +99,10 @@ jobs:
           echo "original tag ${{ needs.tagify.outputs.the_tag }}"
           echo "version only tag $VERSION_ONLY"
           
-          # ? FIXED: Corrected Docker build context path
-          docker build -f NotificationService/NotificationService/NotificationService/Dockerfile \
+          docker build -f NotificationService/Dockerfile \
             -t $REGISTRY/$IMAGE_NAME:${{ needs.tagify.outputs.the_tag }} \
             -t $DEV_TAG \
-            NotificationService/NotificationService/NotificationService/
+            NotificationService/
 
           docker push $REGISTRY/$IMAGE_NAME:${{ needs.tagify.outputs.the_tag }}
 
