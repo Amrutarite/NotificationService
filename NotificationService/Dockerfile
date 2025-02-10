@@ -16,7 +16,7 @@ FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
 # Copy the project file and restore dependencies
-COPY NotificationService/*.csproj ./NotificationService/
+COPY NotificationService/NotificationService.csproj ./NotificationService/
 WORKDIR /src/NotificationService
 RUN dotnet restore
 
