@@ -30,25 +30,25 @@ jobs:
       SOLUTION: 'NotificationService.sln'
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - name: Setup .NET
-      uses: actions/setup-dotnet@v3
-      with:
-        dotnet-version: 8.0.x  # Updated to support .NET 8.0
-    - name: Restore dependencies
-      run: dotnet restore $SOLUTION
-    - name: Build
-      run: dotnet build $SOLUTION --no-restore
-    - name: Test
-      run: dotnet test $SOLUTION --no-build --verbosity normal --logger "trx;LogFileName=test-results.trx" || true
-    - name: Test Report
-      uses: dorny/test-reporter@v1
-      if: always()
-      with:
-        name: Dot NET Tests
-        path: "**/*.trx"   # Fixed test report file path issue                        
-        reporter: dotnet-trx
-        fail-on-error: true
+      - uses: actions/checkout@v3
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: 8.0.x  # Updated to support .NET 8.0
+      - name: Restore dependencies
+        run: dotnet restore $SOLUTION
+      - name: Build
+        run: dotnet build $SOLUTION --no-restore
+      - name: Test
+        run: dotnet test $SOLUTION --no-build --verbosity normal --logger "trx;LogFileName=test-results.trx" || true
+      - name: Test Report
+        uses: dorny/test-reporter@v1
+        if: always()
+        with:
+          name: Dot NET Tests
+          path: "**/*.trx"   # Fixed test report file path issue                        
+          reporter: dotnet-trx
+          fail-on-error: true
 
   containerize:
     name: Containerize
@@ -57,32 +57,37 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-     - uses: actions/checkout@v3
-     - name: Setup .NET
-       uses: actions/setup-dotnet@v3
-       with:
-         dotnet-version: 8.0.x  # Updated to support .NET 8.0
-     
-     - name: Configure AWS credentials
-       uses: aws-actions/configure-aws-credentials@v4
-       with:
-         aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-         aws-region: ${{ secrets.AWS_REGION }} # Fixed AWS region issue
+      - uses: actions/checkout@v3
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: 8.0.x  # Updated to support .NET 8.0
+      
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ secrets.AWS_REGION }} # Fixed AWS region issue
 
-     - name: Login to Amazon ECR
-       id: login-ecr
-       uses: aws-actions/amazon-ecr-login@v2
-       with:
+      - name: Login to Amazon ECR
+        id: login-ecr
+        uses: aws-actions/amazon-ecr-login@v2
+        with:
           mask-password: 'false'
-     
-     - name: Build, tag, and push docker image to Amazon ECR
-       env:
+      
+      - name: Debug Folder Structure
+        run: |
+          echo "Checking available folders..."
+          ls -R
+
+      - name: Build, tag, and push docker image to Amazon ECR
+        env:
           REGISTRY: ${{ steps.login-ecr.outputs.registry }}
           REPOSITORY: ${{ secrets.ECR_REPO_NAME }}
           IMAGE_NAME: notification_service
-       
-       run: |
+        
+        run: |
           IFS='-'
           read -a parsed_tag <<< "${{ needs.tagify.outputs.the_tag }}"
           VERSION_ONLY=${parsed_tag[0]}
@@ -94,15 +99,15 @@ jobs:
           echo "original tag ${{ needs.tagify.outputs.the_tag }}"
           echo "version only tag $VERSION_ONLY"
           
-          
+          # ? FIXED: Corrected Docker build context path
           docker build -f NotificationService/NotificationService/NotificationService/Dockerfile \
             -t $REGISTRY/$IMAGE_NAME:${{ needs.tagify.outputs.the_tag }} \
             -t $DEV_TAG \
-            NotificationService/NotificationService/
-          
+            .
+
           docker push $REGISTRY/$IMAGE_NAME:${{ needs.tagify.outputs.the_tag }}
 
-     - name: Cleanup
-       run: |
-        docker logout
-       if: always()
+      - name: Cleanup
+        run: |
+          docker logout
+        if: always()
