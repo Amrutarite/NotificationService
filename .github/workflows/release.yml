@@ -27,7 +27,7 @@ jobs:
 
   BuildAndUnitTests:
     env:
-      SOLUTION: 'NotificationService/NotificationService.sln'  # Updated path
+      SOLUTION: 'NotificationService.sln'
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
@@ -35,12 +35,12 @@ jobs:
       uses: actions/setup-dotnet@v3
       with:
         dotnet-version: 8.0.x  # Updated to support .NET 8.0
-    - name: Change to Correct Directory
-      run: cd NotificationService && dotnet restore NotificationService.sln
+    - name: Restore dependencies
+      run: dotnet restore $SOLUTION
     - name: Build
-      run: dotnet build NotificationService/NotificationService.sln --no-restore
+      run: dotnet build $SOLUTION --no-restore
     - name: Test
-      run: dotnet test NotificationService/NotificationService.sln --no-build --verbosity normal --logger "trx;LogFileName=test-results.trx" || true
+      run: dotnet test $SOLUTION --no-build --verbosity normal --logger "trx;LogFileName=test-results.trx" || true
     - name: Test Report
       uses: dorny/test-reporter@v1
       if: always()
