@@ -46,7 +46,7 @@ jobs:
       if: always()
       with:
         name: Dot NET Tests
-        path: "**/*.trx"   # Fixed test report file path issue                       
+        path: "**/*.trx"   # Fixed test report file path issue                        
         reporter: dotnet-trx
         fail-on-error: true
 
@@ -68,7 +68,7 @@ jobs:
        with:
          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-         aws-region: ${{ secrets.AWS_ECR_REGION }}
+         aws-region: ${{ secrets.AWS_REGION }} # Fixed AWS region issue
 
      - name: Login to Amazon ECR
        id: login-ecr
