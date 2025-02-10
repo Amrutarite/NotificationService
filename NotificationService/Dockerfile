@@ -24,7 +24,7 @@ RUN dotnet restore
 RUN rm -rf obj bin
 
 # Copy the entire project and build
-COPY . .
+COPY . . 
 RUN dotnet publish -c Release -o /app/publish
 
 # Final runtime image
@@ -32,9 +32,8 @@ FROM base AS final
 WORKDIR /app
 COPY --from=build /app/publish .
 
-# Ensure NLog.config is copied
-COPY NotificationService/NLog.config /app/NLog.config
-COPY NotificationService/NLog.config /app/nlog.config
+# ? FIXED: Ensure correct path for NLog.config
+COPY --from=build /src/NotificationService/NLog.config /app/NLog.config
 
 # Start the application
 ENTRYPOINT ["dotnet", "NotificationService.dll"]
