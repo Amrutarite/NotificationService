@@ -24,11 +24,11 @@ jobs:
       - name: Setup .NET
         uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: 8.0.x  # Updated from 6.0.x to 8.0.x
+          dotnet-version: 8.0.x  # Ensure .NET 8.0 support
 
       - name: Clean old build artifacts
         run: |
-          rm -rf obj bin
+          rm -rf obj bin TestResults
 
       - name: Restore dependencies
         run: dotnet restore $PROJECT_PATH
@@ -37,13 +37,13 @@ jobs:
         run: dotnet build $PROJECT_PATH --no-restore
 
       - name: Run Unit Tests
-        run: dotnet test NotificationService.Tests/NotificationService.Tests.csproj --logger trx --results-directory TestResults || true
+        run: dotnet test NotificationService.Tests/NotificationService.Tests.csproj --logger "trx;LogFileName=test-results.trx" --results-directory TestResults
 
       - name: Test Report
         uses: dorny/test-reporter@v1
         if: always()
         with:
           name: .NET Unit Tests
-          path: "**/TestResults/test-results.trx"
+          path: "TestResults/test-results.trx"
           reporter: dotnet-trx
           fail-on-error: true
