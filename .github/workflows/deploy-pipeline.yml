@@ -1,56 +1,101 @@
-name: Deploy to EC2 
-
+name: Deploy to AWS EC2
 
 on:
   push:
-    branches:
-      - main  # Ensure this matches your default branch name
+    tags:
+      - "v*-dev-deploy"
+
+  workflow_dispatch:
+    inputs:
+      deploy_version:
+        type: string
+        description: Version to deploy in format vX.Y.Z
+      deploy_environment:
+        type: choice
+        description: Deploy Environment
+        options:
+          - dev
+
+env:
+  AWS_REGION: ${{ secrets.AWS_REGION }}
+  ECR_REPOSITORY: ${{ secrets.REPOSITORY }}
+  IMAGE_NAME: notification25
+  EC2_PUBLIC_IP: ${{ secrets.EC2_PUBLIC_IP }}
 
 jobs:
-  deploy:
-    name: Build, Push Docker Image, and Deploy to EC2
+  tagify:
+    name: Get Tag
     runs-on: ubuntu-latest
+    outputs:
+      the_tag: ${{ steps.deploy_tag.outputs.TAG_NAME }}
+    steps:
+      
+
+      - name: Extract Deploy Tag (Push Event)
+        if: github.event_name == 'push'
+        run: |
+          full_tag=${GITHUB_REF#refs/*/}
+          deploy_tag=${full_tag%-deploy}
+          echo "VERSION=${deploy_tag}" >> "$GITHUB_ENV"
+
+      - name: Extract Deploy Tag (Manual Trigger)
+        if: github.event_name == 'workflow_dispatch'
+        run: |
+          echo "VERSION=${{ github.event.inputs.deploy_version }}-${{ github.event.inputs.deploy_environment }}" >> "$GITHUB_ENV"
+
+      - name: Set Output Variable
+        id: deploy_tag
+        run: |
+          echo "TAG_NAME=${{ env.VERSION }}" >> $GITHUB_OUTPUT
+
+  deploy:
+    name: Deploy to EC2
+    needs: [tagify]
+    runs-on: ubuntu-latest
+    if: endsWith(needs.tagify.outputs.the_tag, 'dev')
+    env:
+      TAG_VERSION: ${{ needs.tagify.outputs.the_tag }}
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      - name: Set up AWS CLI
-        uses: aws-actions/configure-aws-credentials@v2
+      - name: Set Up SSH Key
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.EC2_SSH_KEY }}" > ~/.ssh/DeploymentKey.pem
+          chmod 600 ~/.ssh/DeploymentKey.pem
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v4
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: ${{ secrets.AWS_REGION }}
 
       - name: Login to Amazon ECR
-        run: |
-          aws ecr get-login-password --region ${{ secrets.AWS_REGION }} | docker login --username AWS --password-stdin ${{ secrets.REPOSITORY }}
+        id: login-ecr
+        uses: aws-actions/amazon-ecr-login@v2
 
-      - name: Build Docker Image
-        run: docker build -t notificationservice1 -f NotificationService/Dockerfile .
-
-      - name: Tag and Push Docker Image
+      - name: Deploy Application on EC2
+        env:
+          REGISTRY: ${{ steps.login-ecr.outputs.registry }}
         run: |
-          IMAGE_TAG=$(git rev-parse --short HEAD)
-          docker tag notificationservice1 ${{ secrets.REPOSITORY }}:$IMAGE_TAG
-          docker tag notificationservice1 ${{ secrets.REPOSITORY }}:latest
-          docker push ${{ secrets.REPOSITORY }}:$IMAGE_TAG
-          docker push ${{ secrets.REPOSITORY }}:latest
+          ssh -o StrictHostKeyChecking=no -i ~/.ssh/DeploymentKey.pem ec2-user@${{ secrets.EC2_PUBLIC_IP }} << 'EOF'
+            set -e
+            echo "Logging into ECR..."
+            aws ecr get-login-password --region ${{ secrets.AWS_REGION }} | docker login --username AWS --password-stdin ${{ steps.login-ecr.outputs.registry }}
 
-      - name: Create SSH Key File
-        run: |
-          mkdir -p ~/.ssh
-          echo "${{ secrets.EC2_SSH_KEY }}" > ~/.ssh/RportingKeyPair.pem
-          chmod 600 ~/.ssh/RportingKeyPair.pem
+            echo "Stopping and removing existing container..."
+            docker stop notification1 || true
+            docker rm -f notification1 || true
 
-      - name: Deploy to EC2
-        run: |
-          ssh -o StrictHostKeyChecking=no -i ~/.ssh/RportingKeyPair.pem ec2-user@${{ secrets.EC2_PUBLIC_IP }} "
-            sudo systemctl start docker &&
-            sudo usermod -aG docker ec2-user &&
-            docker stop notificationservice1 || true &&
-            docker rm notificationservice1 || true &&
-            aws ecr get-login-password --region ${{ secrets.AWS_REGION }} | docker login --username AWS --password-stdin ${{ secrets.REPOSITORY }} &&
-            docker pull ${{ secrets.REPOSITORY }}:latest &&
-            docker run -d -p 80:80 --name notificationservice1 ${{ secrets.REPOSITORY }}:latest
-          "
+            echo "Pulling latest image..."
+            docker pull ${{ steps.login-ecr.outputs.registry }}/${{ secrets.REPOSITORY }}:latest
+
+            echo "Running new container..."
+            docker run -d -p 8080:8080 --name notification1 ${{ steps.login-ecr.outputs.registry }}/${{ secrets.REPOSITORY }}:latest
+          EOF
+
+      - name: Cleanup SSH Key
+        run: rm -f ~/.ssh/DeploymentKey.pem
