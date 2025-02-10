@@ -56,69 +56,54 @@ jobs:
           fail-on-error: true
 
   containerize:
-    name: Containerize
+    name: Containerize and Push to ECR
     needs: [tagify, BuildAndUnitTests]
-    if: ${{ endsWith(needs.tagify.outputs.the_tag, 'qa') || endsWith(needs.tagify.outputs.the_tag, 'dev') }}
+    if: ${{ endsWith(needs.tagify.outputs.the_tag, 'dev') }}
     runs-on: ubuntu-latest
-    
+
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout Repository
+        uses: actions/checkout@v3
 
       - name: Setup .NET
         uses: actions/setup-dotnet@v3
         with:
           dotnet-version: 8.0.x
-      
-      - name: Configure AWS credentials
+
+      - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v4
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws-region: ${{ secrets.AWS_REGION }}
+          aws-region: ${{ env.AWS_REGION }}
 
       - name: Login to Amazon ECR
         id: login-ecr
         uses: aws-actions/amazon-ecr-login@v2
         with:
-          mask-password: 'false'
+          mask-password: false
 
-      - name: Debug Folder Structure
-        run: |
-          echo "Checking available folders..."
-          ls -R
-
-      - name: Build, tag, and push docker image to Amazon ECR
+      - name: Build, Tag, and Push Docker Image to Amazon ECR
         env:
           REGISTRY: ${{ steps.login-ecr.outputs.registry }}
-          REPOSITORY: ${{ secrets.REPOSITORY || 'notification_service' }}
-        
         run: |
-          # Check if repository exists
-          echo "Checking if the repository exists in ECR: $REGISTRY/$REPOSITORY"
           
-          # Get tag parts
-          IFS='-' read -r VERSION_ONLY ENVIRONMENT <<< "${{ needs.tagify.outputs.the_tag }}"
-          
-          # Construct tags
-          DEV_TAG=$REGISTRY/$REPOSITORY:$VERSION_ONLY-dev
-          PROD_TAG=$REGISTRY/$REPOSITORY:${{ needs.tagify.outputs.the_tag }}
-          
-          echo "Version: $VERSION_ONLY"
-          echo "Environment: $ENVIRONMENT"
-          echo "Dev tag: $DEV_TAG"
-          echo "Prod tag: $PROD_TAG"
+          IFS='-'
+          read -a parsed_tag <<< "${{ needs.tagify.outputs.the_tag }}"
+          VERSION_ONLY=${parsed_tag[0]}
+          IFS=' '
+          DEV_TAG=$REGISTRY/$ECR_REPOSITORY:$VERSION_ONLY-dev
+          LATEST_TAG=$REGISTRY/$ECR_REPOSITORY:latest
 
-          # Build Docker image
-          docker build -f NotificationService/Dockerfile \
-            -t $PROD_TAG \
-            -t $DEV_TAG \
-            NotificationService/
+          echo "Original tag: ${{ needs.tagify.outputs.the_tag }}"
+          echo "Version-only tag: $VERSION_ONLY"
 
-          # Push Docker image to ECR
-          docker push $PROD_TAG
+          docker build -t $REGISTRY/$ECR_REPOSITORY:${{ needs.tagify.outputs.the_tag }} -t $DEV_TAG -t $LATEST_TAG .
+          
+          docker push $REGISTRY/$ECR_REPOSITORY:${{ needs.tagify.outputs.the_tag }}
           docker push $DEV_TAG
+          docker push $LATEST_TAG
 
       - name: Cleanup
-        run: |
-          docker logout
+        run: docker logout
         if: always()
