@@ -11,6 +11,9 @@ permissions:
   actions: read
   checks: write
 
+env:
+  AWS_REGION: ${{ secrets.AWS_REGION }}
+  ECR_REPOSITORY: ${{ secrets.REPOSITORY }}
 jobs:
   tagify:
     name: Get Tag
