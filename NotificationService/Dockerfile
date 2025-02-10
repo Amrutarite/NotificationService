@@ -16,7 +16,7 @@ FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
 # Copy the project file and restore dependencies
-COPY NotificationService/*.csproj ./NotificationService/
+COPY NotificationService/NotificationService.csproj ./NotificationService/
 WORKDIR /src/NotificationService
 RUN dotnet restore
 
@@ -34,6 +34,7 @@ COPY --from=build /app/publish .
 
 # ? FIXED: Ensure correct path for NLog.config
 COPY --from=build /src/NotificationService/NLog.config /app/NLog.config
+
 
 # Start the application
 ENTRYPOINT ["dotnet", "NotificationService.dll"]
