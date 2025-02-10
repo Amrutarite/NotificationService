@@ -19,7 +19,6 @@
 		<PackageReference Include="Hangfire.SqlServer" Version="1.8.17" />
 		<PackageReference Include="MailKit" Version="4.9.0" />
 		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.0" />
-		<!-- Remove the Microsoft.AspNetCore.Mvc package -->
 		<PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.2" />
 		<PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.1" />
 		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.1" />
@@ -31,6 +30,8 @@
 		<PackageReference Include="Quartz" Version="3.13.1" />
 		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
 		<PackageReference Include="TimeZoneConverter" Version="7.0.0" />
+		<PackageReference Include="xunit" Version="2.4.2" />
+		<PackageReference Include="xunit.runner.visualstudio" Version="2.4.3" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -43,18 +44,6 @@
 		<None Update="NLog.config">
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</None>
-	</ItemGroup>
-
-	<ItemGroup>
-	  <None Remove="..\.dockerignore" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <None Remove="..\.dockerignore" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <None Remove="..\.dockerignore" />
 	</ItemGroup>
 
 </Project>

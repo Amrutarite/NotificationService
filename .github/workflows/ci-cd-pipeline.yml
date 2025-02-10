@@ -1,0 +1,51 @@
+name: Push & Build
+
+on:
+  push:
+    branches:
+      - main  # Ensure this matches your default branch name
+
+jobs:
+  build:
+    name: Build and Push Docker Image to AWS ECR
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up AWS CLI
+        uses: aws-actions/configure-aws-credentials@v2
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ secrets.AWS_REGION }}
+
+      - name: Login to Amazon ECR
+        run: |
+          aws ecr get-login-password --region ${{ secrets.AWS_REGION }} | docker login --username AWS --password-stdin ${{ secrets.REPOSITORY }}
+
+      - name: Clean old build artifacts
+        run: |
+          rm -rf obj bin
+
+      - name: Restore dependencies
+        run: dotnet restore NotificationService/NotificationService.csproj
+
+      - name: Run Unit Tests
+        run: dotnet test NotificationService.Tests/NotificationService.Tests.csproj --logger trx --results-directory TestResults
+
+      - name: Build Docker Image
+        run: docker build -t notificationservice1 -f NotificationService/Dockerfile .
+
+      - name: Tag Docker Image
+        run: |
+          IMAGE_TAG=$(git rev-parse --short HEAD)
+          docker tag notificationservice1 ${{ secrets.REPOSITORY }}:$IMAGE_TAG
+          docker tag notificationservice1 ${{ secrets.REPOSITORY }}:latest
+
+      - name: Push Docker Image to ECR
+        run: |
+          IMAGE_TAG=$(git rev-parse --short HEAD)
+          docker push ${{ secrets.REPOSITORY }}:$IMAGE_TAG
+          docker push ${{ secrets.REPOSITORY }}:latest
