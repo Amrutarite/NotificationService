@@ -1,51 +1,49 @@
-name: Push & Build
+name: Build & Test on Any Branch
 
 on:
   push:
     branches:
-      - main  # Ensure this matches your default branch name
+      - "**"  # Runs on any branch
+
+permissions:
+  contents: read
+  actions: read
+  checks: write
 
 jobs:
-  build:
-    name: Build and Push Docker Image to AWS ECR
+  BuildAndTest:
     runs-on: ubuntu-latest
+    env:
+      PROJECT_PATH: 'NotificationService/NotificationService.csproj'
+      IMAGE_NAME: 'notificationservice1'
 
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Set up AWS CLI
-        uses: aws-actions/configure-aws-credentials@v2
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
         with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws-region: ${{ secrets.AWS_REGION }}
-
-      - name: Login to Amazon ECR
-        run: |
-          aws ecr get-login-password --region ${{ secrets.AWS_REGION }} | docker login --username AWS --password-stdin ${{ secrets.REPOSITORY }}
+          dotnet-version: 8.0.x  # Ensure .NET 8.0 support
 
       - name: Clean old build artifacts
         run: |
-          rm -rf obj bin
+          rm -rf obj bin TestResults
 
       - name: Restore dependencies
-        run: dotnet restore NotificationService/NotificationService.csproj
+        run: dotnet restore $PROJECT_PATH
+
+      - name: Build
+        run: dotnet build $PROJECT_PATH --no-restore
 
       - name: Run Unit Tests
-        run: dotnet test NotificationService.Tests/NotificationService.Tests.csproj --logger trx --results-directory TestResults
+        run: dotnet test NotificationService.Tests/NotificationService.Tests.csproj --logger "trx;LogFileName=test-results.trx" --results-directory TestResults
 
-      - name: Build Docker Image
-        run: docker build -t notificationservice1 -f NotificationService/Dockerfile .
-
-      - name: Tag Docker Image
-        run: |
-          IMAGE_TAG=$(git rev-parse --short HEAD)
-          docker tag notificationservice1 ${{ secrets.REPOSITORY }}:$IMAGE_TAG
-          docker tag notificationservice1 ${{ secrets.REPOSITORY }}:latest
-
-      - name: Push Docker Image to ECR
-        run: |
-          IMAGE_TAG=$(git rev-parse --short HEAD)
-          docker push ${{ secrets.REPOSITORY }}:$IMAGE_TAG
-          docker push ${{ secrets.REPOSITORY }}:latest
+      - name: Test Report
+        uses: dorny/test-reporter@v1
+        if: always()
+        with:
+          name: .NET Unit Tests
+          path: "TestResults/test-results.trx"
+          reporter: dotnet-trx
+          fail-on-error: true
